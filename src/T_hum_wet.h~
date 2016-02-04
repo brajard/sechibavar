@@ -1,0 +1,163 @@
+  
+  
+/***************************************************************************
+                 module classe T_hum_wet.h  -  description
+
+multipluies shumdiag(ji,jg)*intfactw(jd,jg) to obtain the soil wetness on the temperature levels
+
+
+output: wetdiag:   Soil weetness on the thermodynamical levels (dimensionless) 
+                             -------------------
+ ***************************************************************************/
+
+  //===========================================================================
+  //                          methodes forward
+  forward ()
+  {
+	//double x = 0;
+	double x1 = 0;
+	double p;
+	double w;
+
+	//if((Yj == 0)&&(Yt==1))
+	//for(int p = 0 ; p < nbdl*2 + 1 ; p++)
+	//	printf("ying : %e \n",Yting[p]);
+
+
+	//printf("size %e \n",(double)sizeof(Yting));
+	//if((Yt == 1)&&(Yi == 0)&&(Yj == 0))
+	//	x1 = Yting[0];
+	//else
+	//{
+		for(int k = 0 ; k < nbdl ; k++)
+		{
+			//YS_T_hum_wet(0,Yi,Yj,Yt) = YS_T_hum_wet(0,Yi,Yj,Yt) + YS_T_hum_init(4,Yj,k) * YS_H_soil_shum(0,Yi,k,Yt);
+			//p =  YS_H_soil_shum(0,Yi,k,Yt);
+			p= Yting[k];
+			//x += intfactw_w[Yj][k] * p;
+
+
+			w = Yting[k+nbdl];
+			x1 += w * p;
+
+			//printf("%d,%d  x %e       x1 %e \n",Yt,Yj,x,x1);
+
+			//printf("----%d,%d--- w %e      p %e \n",Yt,Yj,w,intfactw_w[Yj][k]);
+
+			//printf("%d(%d,%d) YS_int_humlev %e    w %e  \n ",Yt, Yi,Yj,YS_int_humlev(0,Yj,k), w);
+
+			//printf("p: %e   i:%e \n",p, intfactw_w[Yj][k] );
+			//YS_T_hum_wet(0,Yi,Yj,Yt) = YS_T_hum_wet(0,Yi,Yj,Yt) + intfactw_w[Yj][k] * YS_H_soil_shum(0,Yi,k,Yt);
+			//printf("%d(%d,%d,%d) wetdiag %e   intfactw_w %e   shumdiag %e   YS1 %e \n ",Yt, Yi,Yj,k,YS_T_hum_wet(0,Yi,Yj,Yt), intfactw_w[Yj][k],YS_H_soil_shum(0,Yi,k,Yt),YS_T_hum_wet(0,Yi,Yj,Yt));
+		}
+	//}
+
+	
+	
+
+
+
+	YS1 = x1;
+	
+	//printf("%d(%d,%d) x1 %e      \n ",Yt, Yi,Yj,YS1);
+
+  }
+	
+
+  //===========================================================================
+  //                         methodes  backward
+  backward()
+  {
+	double w, p;
+	//double tt = Yting[0];
+
+
+	//Yjac[0][0] = 0;
+	//if((Yt == 1)&&(Yi == 0)&&(Yj == 0))
+	//	Yjac[0][0] = 1;
+	//else
+	//{
+		//for (int k=1 ; k <= nbdl *2 ; k++)
+		for (int k=0 ; k < nbdl *2 ; k++)
+		{
+			w = Yting[k+nbdl];
+			p= Yting[k];
+			//YG1_H_soil_shum(Yi,k,Yt)+=intfactw_w[Yj][k]*YG1_T_hum_wet(Yi,Yj,Yt);
+			if(k < 12)
+				Yjac[0][k] = Yting[k+nbdl];
+			else
+				Yjac[0][k] = Yting[k-nbdl];
+			//Yjac[1][k] = p;
+				//printf(" p %e    w %e  tt %e\n\n",p,w, tt);
+
+		}
+	//}
+	
+  }
+
+  //===========================================================================
+
+//************************** FIN DU MODULE T_hum_wet.h ************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+  forward (YREAL shumdiag, YREAL intfactw, YREAL wetdiag1)
+  {
+	//double temp[11];
+	
+	//for(int i = 0 ; i < nbdl ; i++)	
+	//	temp[i] =  Yting[i]*Yting[i+11];
+
+	//YS1 = temp[Yi-1];
+	
+	YS1 = wetdiag1 + shumdiag*intfactw;
+
+  }
+
+  //===========================================================================
+  //                         methodes  backward
+  backward(YREAL shumdiag, YREAL intfactw, YREAL wetdiag1)
+  {
+	
+	
+  }
+
+*/
+
+
+
+
+
+
+
+
+
+
+

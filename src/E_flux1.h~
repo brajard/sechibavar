@@ -1,0 +1,60 @@
+  
+/***************************************************************************
+                 module classe E_flux1.h  -  description
+                             -------------------
+
+variablesi ntermedias para el calculo de los flujos de energia
+
+salida: YS1 = qc ---> drag coefficient multiplied by the wind
+
+ ***************************************************************************/
+
+  //===========================================================================
+  //                          methodes forward
+  forward (YREAL speed, YREAL q_cdrag)
+  {
+	if(Yt > 1)
+		YS1 = speed * q_cdrag; 
+	else
+		YS1 = 0;
+
+
+  }
+	
+
+  //===========================================================================
+  //                         methodes  backward
+  backward (YREAL speed, YREAL q_cdrag)
+  {
+	if(Yt > 1)
+	{
+		YJ1I1 = q_cdrag;
+		YJ1I2 = speed;
+	}
+	else
+	{
+		YJ1I1 = 0;
+		YJ1I2 = 0;
+	
+	}
+
+	
+  }
+
+  //===========================================================================
+
+//************************** FIN DU MODULE E_flux1.h ********************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+

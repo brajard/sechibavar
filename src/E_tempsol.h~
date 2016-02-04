@@ -1,0 +1,65 @@
+  
+/***************************************************************************
+                    module classe E_tempsol.h  -  description
+                             -------------------
+ ***************************************************************************/
+
+  //===========================================================================
+  //                          methodes forward
+  forward (YREAL tempsol, YREAL temp_sol_init)
+  {
+	if(Yt == 1)
+	{
+		YS1 = temp_sol_init; // * var_t + mean_t;
+		//printf("tempsol : %e   YS1: %e \n",temp_sol_init, YS1);
+	}
+	else
+	{
+		YS1 = tempsol;
+
+		//printf("tempsol : %e   YS1: %e \n",temp_sol_init, YS1);
+		
+	}
+
+	//printf("Yt %d   tempsol %e \n",Yt,YS1);
+
+
+	
+  }
+	
+
+  //===========================================================================
+  //                         methodes  backward
+  backward (YREAL tempsol, YREAL temp_sol_init)
+  {
+	if(Yt == 1)
+	{
+		YJ1I1 = 0;
+		//YJ1I2 = var_t;
+		YJ1I2 = 1;
+
+	}
+	else
+	{
+		YJ1I1 = 1;
+		YJ1I2 = 0;
+	}
+  }
+
+  //===========================================================================
+
+//************************** FIN DU MODULE E_tempsol.h ********************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+

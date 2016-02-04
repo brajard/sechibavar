@@ -1,0 +1,78 @@
+  
+/***************************************************************************
+                    module classe E_surftemp_pt.h  -  description
+                             -------------------
+computes 
+	-psnew: New surface static energy
+	-temp_sol_new: New soil temperature
+
+	YS1 = psnew
+	YS2 = temp_sol_new;
+
+ ***************************************************************************/
+
+  //===========================================================================
+  //                          methodes forward
+  forward (YREAL psold, YREAL dtheta)
+  {
+
+	if(Yt == 1)
+	{
+		YS1 = 0;	
+		YS2 = 0;
+	}
+	else
+	{
+		YS1 =  psold + dtheta;	
+		YS2 = (psold + dtheta) / cp_air;	
+	}
+
+	//printf("1-----Yt %d  YS2: %e  \n",Yt,YS2);
+	//printf("Yt %d      psold: %e    dtheta: %e      YS1: %e     YS2: %e \n",Yt,psold,dtheta,YS1,YS2);
+
+	//printf("%d  %e\n",Yt,YS2);
+  }
+	
+
+  //===========================================================================
+  //                         methodes  backward
+  backward (YREAL psold, YREAL dtheta)
+  {
+	if(Yt == 1)
+	{
+		YJ1I1 = 0;
+		YJ1I2 = 0;
+
+		YJ2I1 = 0;
+		YJ2I2 = 0;
+	}
+	else
+	{
+		YJ1I1 = 1;
+		YJ1I2 = 1;
+
+		YJ2I1 = 1/cp_air;
+		YJ2I2 = 1/cp_air;
+
+	}
+	
+	
+  }
+
+  //===========================================================================
+
+//************************** FIN DU MODULE E_surftemp_pt.h ********************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+

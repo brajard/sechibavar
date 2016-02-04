@@ -1,0 +1,60 @@
+  
+/***************************************************************************
+                 module classe D_raerod.h  -  description
+                             -------------------
+salida = raero : aerodynamic resistance
+
+raero = 1 / (q_cdrag*speed)----> drag coefficient and the wind speed;
+ ***************************************************************************/
+
+  //===========================================================================
+  //                          methodes forward
+  forward (YREAL wind, YREAL q_cdrag)
+  {
+	if(Yt > 1)
+	        YS1 = 1/(wind*q_cdrag);
+	else
+		YS1 = 0;
+
+       // printf("Yt %d  q_cdrag %e  YS1= %e \n",Yt,q_cdrag,YS1);
+	
+  }
+	
+
+  //===========================================================================
+  //                         methodes  backward
+  backward (YREAL wind, YREAL q_cdrag)
+  {
+	if(Yt > 1)
+	{
+		YJ1I1 = -1/(q_cdrag * wind * wind);
+		YJ1I2 = -1/pow(q_cdrag,2) * (1/wind);    //(q_cdrag * q_cdrag * wind);
+	}
+	
+	else
+	{
+		YJ1I1 = 0;
+		YJ1I2 = 0;
+	}
+
+	
+	
+  }
+
+  //===========================================================================
+
+//************************** FIN DU MODULE d_raerod.h ********************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+

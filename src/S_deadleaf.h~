@@ -1,0 +1,51 @@
+  
+/***************************************************************************
+                 module classe S_deadleaf.h  -  description
+
+deadleaf_cover : fraction of soil covered by dead leaves
+
+si STOMATE esta OFF, deadleaf_cover sera siempre cero
+
+                             -------------------
+ ***************************************************************************/
+
+  //===========================================================================
+  //                          methodes forward
+  forward ()
+  {
+	double deadleaf_cover;
+		
+	
+	deadleaf_cover  = 0;
+	
+	YS1 = deadleaf_cover;
+ 
+
+  }
+	
+
+  //===========================================================================
+  //                         methodes  backward
+  backward ()
+  {
+	
+	
+  }
+
+  //===========================================================================
+
+//************************** FIN DU MODULE S_deadleaf.h  **********************
+
+
+
+
+
+
+
+
+
+
+
+
+
+

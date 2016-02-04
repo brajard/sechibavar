@@ -1,0 +1,69 @@
+  
+/***************************************************************************
+                 module classe C_zol_calc.h  -  description
+
+si impaze es true, se impone el mismo tipo de vegetacion en todas partes, por lo que las salidas
+son constantes
+
+YS1 = emis_scal--->Emissivity;
+                             -------------------
+ ***************************************************************************/
+
+  //===========================================================================
+  //                          methodes forward
+  forward ()
+  {
+	YS1 = emis_scal;
+  }
+	
+
+  //===========================================================================
+  //                         methodes  backward
+  backward ()
+  {
+	YJ1I1 = 0;
+	
+  }
+
+  //===========================================================================
+
+//************************** FIN DU MODULE C_zol_calc.h ********************************
+
+
+
+
+/*
+
+
+
+
+	double z0_nobio, ztmp;
+	//sortie
+	double z0_m, emis;
+
+	if(impaze==1) 
+		z0_m = z0;
+
+	else
+	{
+		ztmp = MAX(10, zlev);
+
+		if( Yj == iice ) 
+			z0_nobio = z0_ice;
+
+		z0_m = z0 + frac_nobio * pow(ct_karman/log(ztmp/z0_nobio),2);
+		
+		z0_m = ztmp / exp(ct_karman/sqrt(z0_m));
+	}
+
+	emis = emis_scal;
+
+	YS1 = z0_m;
+	YS2 = emis;
+*/
+
+
+
+
+
+

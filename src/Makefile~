@@ -1,0 +1,10 @@
+LIBNC=/usr/lib/libnetcdf_c++.so.5.0.0
+INCNC=/usr/include/netcdf-3
+FLAGS=-Wno-deprecated -Wno-write-strings
+GXX=g++ -c
+
+all : ../include/ncutil.h
+	${GXX} -L${LIBNC} -I${INCNC} ncutil.cpp  ${FLAGS}
+	cp -f *.o ../object
+clean :
+	rm -f *.o ../object/*.o *~

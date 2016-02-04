@@ -1,0 +1,49 @@
+  
+/***************************************************************************
+                 module classe I_peqAcoef.h  -  description
+
+petAcoef : Coeficients A from the PBL resolution for T
+
+es un modulo sin entradas, constante, siempre sera cero si no estamos en modo watchout
+                             -------------------
+ ***************************************************************************/
+
+  //===========================================================================
+  //                          methodes forward
+  forward ()
+  {
+	double petqcoef;
+
+	petqcoef = 0;
+
+	YS1 = petqcoef;
+//	printf("%d: %e \n",Yt,YS1);
+
+  }
+	
+
+  //===========================================================================
+  //                         methodes  backward
+  backward  ()
+  {
+	//YJ1I1 = 0;
+	
+  }
+
+  //===========================================================================
+
+//************************** FIN DU MODULE I_peqAcoef.h ********************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+

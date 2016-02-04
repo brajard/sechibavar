@@ -1,0 +1,47 @@
+  
+/***************************************************************************
+                 module classe I_canopy.h  -  description
+
+canopy : CO2 concentration in the canopy
+
+esta variable se inicializa en el run.def con el tag 'ATM_CO2' y es constante en toda la grilla
+no varia en los pdt al menos que estemos en modo "watchout"
+
+                             -------------------
+ ***************************************************************************/
+
+  //===========================================================================
+  //                          methodes forward
+  forward ()
+  {
+
+	YS1 = 370;
+
+  }
+	
+
+  //===========================================================================
+  //                         methodes  backward
+  backward  ()
+  {
+	
+	
+  }
+
+  //===========================================================================
+
+//************************** FIN DU MODULE I_canopy.h ********************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+

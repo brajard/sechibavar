@@ -1,0 +1,933 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+ADJUST_APPLI	Dynamo.h	/^{		ADJUST_APPLI,		 \/* fonction d'ajustement propre à l'application *\/$/;"	e	enum:YAdjustKind
+ADJUST_M1QN3	Dynamo.h	/^		ADJUST_M1QN3		 \/* M1QN3 (PLM: pas vraiment utile puisque c'est d'office forced avec m1qn3, but ...) *\/$/;"	e	enum:YAdjustKind
+ADJUST_STD	Dynamo.h	/^		ADJUST_STD,			 \/* fonction d'ajustement standard (et classique) de Yao *\/$/;"	e	enum:YAdjustKind
+Activation	Dynamo.h	/^typedef enum {SigLin, SigSig} Activation;$/;"	t	typeref:enum:__anon1
+BACKWARD	Dynamo.h	/^		BACKWARD,$/;"	e	enum:YWardKind
+BUFSIZE	../src/Yao8.c	472;"	d	file:
+BUFSIZE	Dynide.h	25;"	d
+CC	../src/Makefile	/^CC=gcc$/;"	m
+CFLAGS	../src/Makefile	/^CFLAGS=-O0 -Wall$/;"	m
+COSTL2_GRAD	Dynamo.h	/^    ,COSTL2_GRAD  		 \/*  *\/$/;"	e	enum:YCostL2Kind
+COSTL2_WISHDIFF	Dynamo.h	/^    ,COSTL2_WISHDIFF   \/*  *\/$/;"	e	enum:YCostL2Kind
+COSTL2_WISHQTEA	Dynamo.h	/^    ,COSTL2_WISHQTEA	 \/*  *\/$/;"	e	enum:YCostL2Kind
+COST_APPLI	Dynamo.h	/^{		COST_APPLI,			 \/* fonction de cout propre à l'application *\/$/;"	e	enum:YCostKind
+COST_LMS	Dynamo.h	/^		COST_LMS				 \/* fonction de cout lms standard de Yao *\/$/;"	e	enum:YCostKind
+CP	../src/Makefile	/^CP=cp$/;"	m
+Ci	../src/Yao8.c	/^	int			Ci;$/;"	m	struct:st_connect	file:
+Cj	../src/Yao8.c	/^	int			Cj;$/;"	m	struct:st_connect	file:
+Ck	../src/Yao8.c	/^	int			Ck;$/;"	m	struct:st_connect	file:
+Ct	../src/Yao8.c	/^	int			Ct;$/;"	m	struct:st_connect	file:
+Dim	../src/Yao8.c	/^	int			Dim, Ya1, Ya2, Ya3;				\/* Dimension du gabarit (commune a tous les inner et inter pour partie) *\/$/;"	v
+Dtime	../src/Yao8.c	/^	float   Offtime, Dtime;$/;"	v
+FORWARD	Dynamo.h	/^{		FORWARD,$/;"	e	enum:YWardKind
+INSTALL	../src/Makefile	/^INSTALL=install$/;"	m
+IRobs	Dyniob.h	/^struct Yst_nodo *IRobs; \/* un pointeur sur la Sortie s\/Root courant trouve (si dim>1)*\/$/;"	v	typeref:struct:Yst_nodo
+JRobs	Dyniob.h	/^struct Yst_nodo *JRobs; \/* un pointeur sur la Sortie s\/Root courant trouve (si dim>2 =>3) *\/$/;"	v	typeref:struct:Yst_nodo
+KO	Dynide.h	32;"	d
+LG_MAX_NAME	../src/Yao8.c	470;"	d	file:
+LG_MAX_NAME	Dynide.h	36;"	d
+LG_MAX_STRING	../src/Yao8.c	471;"	d	file:
+LINWARD	Dynamo.h	/^		LINWARD$/;"	e	enum:YWardKind
+MACRO00_GTEST	../src/Yao8.c	461;"	d	file:
+MACRO01_GTEST	../src/Yao8.c	463;"	d	file:
+MACRO01_GTESTT	../src/Yao8.c	462;"	d	file:
+MACRO0_NBIMOD	../src/Yao8.c	107;"	d	file:
+MACRO0_NBMOD	../src/Yao8.c	105;"	d	file:
+MACRO0_NBSMOD	../src/Yao8.c	106;"	d	file:
+MACRO0_NETLOD	../src/Yao8.c	240;"	d	file:
+MACRO0_OUTOB	../src/Yao8.c	191;"	d	file:
+MACRO0_PCL	../src/Yao8.c	99;"	d	file:
+MACRO0_PCLAN	../src/Yao8.c	101;"	d	file:
+MACRO0_PCLANT	../src/Yao8.c	102;"	d	file:
+MACRO0_PCLNW	../src/Yao8.c	100;"	d	file:
+MACRO1_ADJUD	../src/Yao8.c	247;"	d	file:
+MACRO1_ADJUDT	../src/Yao8.c	250;"	d	file:
+MACRO1_ADJUK	../src/Yao8.c	255;"	d	file:
+MACRO1_ADJUKT	../src/Yao8.c	258;"	d	file:
+MACRO1_ADJUS	../src/Yao8.c	118;"	d	file:
+MACRO1_ADJUST	../src/Yao8.c	121;"	d	file:
+MACRO1_CREU	../src/Yao8.c	176;"	d	file:
+MACRO1_CREY	../src/Yao8.c	173;"	d	file:
+MACRO1_DEQPG	../src/Yao8.c	298;"	d	file:
+MACRO1_DEQPGT	../src/Yao8.c	301;"	d	file:
+MACRO1_DEQPS	../src/Yao8.c	290;"	d	file:
+MACRO1_DEQPST	../src/Yao8.c	293;"	d	file:
+MACRO1_GCTOTB	../src/Yao8.c	230;"	d	file:
+MACRO1_GCTOTBT	../src/Yao8.c	233;"	d	file:
+MACRO1_GDEL	../src/Yao8.c	445;"	d	file:
+MACRO1_GDELT	../src/Yao8.c	448;"	d	file:
+MACRO1_GEQPD	../src/Yao8.c	266;"	d	file:
+MACRO1_GEQPDT	../src/Yao8.c	269;"	d	file:
+MACRO1_GEQPOS	../src/Yao8.c	339;"	d	file:
+MACRO1_GEQPOST	../src/Yao8.c	342;"	d	file:
+MACRO1_GEQPS	../src/Yao8.c	331;"	d	file:
+MACRO1_GEQPST	../src/Yao8.c	334;"	d	file:
+MACRO1_GEQV	../src/Yao8.c	274;"	d	file:
+MACRO1_GEQVT	../src/Yao8.c	277;"	d	file:
+MACRO1_GSTA	../src/Yao8.c	388;"	d	file:
+MACRO1_GSTAT	../src/Yao8.c	391;"	d	file:
+MACRO1_GTOTB	../src/Yao8.c	368;"	d	file:
+MACRO1_GTOTBT	../src/Yao8.c	371;"	d	file:
+MACRO1_HERESGI	../src/Yao8.c	146;"	d	file:
+MACRO1_HERESIT	../src/Yao8.c	158;"	d	file:
+MACRO1_IRMOD	../src/Yao8.c	126;"	d	file:
+MACRO1_NOWMOD	../src/Yao8.c	130;"	d	file:
+MACRO1_OUTOB	../src/Yao8.c	192;"	d	file:
+MACRO1_OUTOBT	../src/Yao8.c	195;"	d	file:
+MACRO1_PTRMOD	../src/Yao8.c	134;"	d	file:
+MACRO1_RGRAD	../src/Yao8.c	182;"	d	file:
+MACRO1_RGRADT	../src/Yao8.c	185;"	d	file:
+MACRO1_SEPS	../src/Yao8.c	113;"	d	file:
+MACRO1_SEQAPTD	../src/Yao8.c	323;"	d	file:
+MACRO1_SEQAPTDT	../src/Yao8.c	326;"	d	file:
+MACRO1_SEQPD	../src/Yao8.c	306;"	d	file:
+MACRO1_SEQPDT	../src/Yao8.c	309;"	d	file:
+MACRO1_SEQPOD	../src/Yao8.c	315;"	d	file:
+MACRO1_SEQPODT	../src/Yao8.c	318;"	d	file:
+MACRO1_SETA	../src/Yao8.c	201;"	d	file:
+MACRO1_SETAT	../src/Yao8.c	204;"	d	file:
+MACRO1_STOTB	../src/Yao8.c	360;"	d	file:
+MACRO1_STOTBT	../src/Yao8.c	363;"	d	file:
+MACRO1_SWISH	../src/Yao8.c	217;"	d	file:
+MACRO1_TBTOG	../src/Yao8.c	222;"	d	file:
+MACRO1_TBTOGT	../src/Yao8.c	225;"	d	file:
+MACRO1_VALSG	../src/Yao8.c	138;"	d	file:
+MACRO1_VALSGI	../src/Yao8.c	142;"	d	file:
+MACRO1_VALSIT	../src/Yao8.c	154;"	d	file:
+MACRO1_VALST	../src/Yao8.c	150;"	d	file:
+MACRO1_VDEL	../src/Yao8.c	437;"	d	file:
+MACRO1_VDELT	../src/Yao8.c	440;"	d	file:
+MACRO1_VDXMI	../src/Yao8.c	428;"	d	file:
+MACRO1_VDXMIT	../src/Yao8.c	431;"	d	file:
+MACRO1_VGRAD	../src/Yao8.c	404;"	d	file:
+MACRO1_VGRADT	../src/Yao8.c	407;"	d	file:
+MACRO1_VSTA	../src/Yao8.c	396;"	d	file:
+MACRO1_VSTAT	../src/Yao8.c	399;"	d	file:
+MACRO1_VXINF	../src/Yao8.c	412;"	d	file:
+MACRO1_VXINFT	../src/Yao8.c	415;"	d	file:
+MACRO1_VXSUP	../src/Yao8.c	420;"	d	file:
+MACRO1_VXSUPT	../src/Yao8.c	423;"	d	file:
+MACRO1_WEQPS	../src/Yao8.c	351;"	d	file:
+MACRO1_WEQPST	../src/Yao8.c	354;"	d	file:
+MACRO1_YIOTU	../src/Yao8.c	209;"	d	file:
+MACRO1_YIOUT	../src/Yao8.c	212;"	d	file:
+MACRO2_ADJUD	../src/Yao8.c	248;"	d	file:
+MACRO2_ADJUDT	../src/Yao8.c	251;"	d	file:
+MACRO2_ADJUK	../src/Yao8.c	256;"	d	file:
+MACRO2_ADJUKT	../src/Yao8.c	259;"	d	file:
+MACRO2_ADJUS	../src/Yao8.c	119;"	d	file:
+MACRO2_ADJUST	../src/Yao8.c	122;"	d	file:
+MACRO2_CREU	../src/Yao8.c	177;"	d	file:
+MACRO2_CREY	../src/Yao8.c	174;"	d	file:
+MACRO2_DEQPG	../src/Yao8.c	299;"	d	file:
+MACRO2_DEQPGT	../src/Yao8.c	302;"	d	file:
+MACRO2_DEQPS	../src/Yao8.c	291;"	d	file:
+MACRO2_DEQPST	../src/Yao8.c	294;"	d	file:
+MACRO2_GCTOTB	../src/Yao8.c	231;"	d	file:
+MACRO2_GCTOTBT	../src/Yao8.c	234;"	d	file:
+MACRO2_GDEL	../src/Yao8.c	446;"	d	file:
+MACRO2_GDELT	../src/Yao8.c	449;"	d	file:
+MACRO2_GEQPD	../src/Yao8.c	267;"	d	file:
+MACRO2_GEQPDT	../src/Yao8.c	270;"	d	file:
+MACRO2_GEQPOS	../src/Yao8.c	340;"	d	file:
+MACRO2_GEQPOST	../src/Yao8.c	343;"	d	file:
+MACRO2_GEQPS	../src/Yao8.c	332;"	d	file:
+MACRO2_GEQPST	../src/Yao8.c	335;"	d	file:
+MACRO2_GEQV	../src/Yao8.c	275;"	d	file:
+MACRO2_GEQVT	../src/Yao8.c	278;"	d	file:
+MACRO2_GSTA	../src/Yao8.c	389;"	d	file:
+MACRO2_GSTAT	../src/Yao8.c	392;"	d	file:
+MACRO2_GTOTB	../src/Yao8.c	369;"	d	file:
+MACRO2_GTOTBT	../src/Yao8.c	372;"	d	file:
+MACRO2_HERESGI	../src/Yao8.c	147;"	d	file:
+MACRO2_HERESIT	../src/Yao8.c	159;"	d	file:
+MACRO2_IRMOD	../src/Yao8.c	127;"	d	file:
+MACRO2_NOWMOD	../src/Yao8.c	131;"	d	file:
+MACRO2_OUTOB	../src/Yao8.c	193;"	d	file:
+MACRO2_OUTOBT	../src/Yao8.c	196;"	d	file:
+MACRO2_PTRMOD	../src/Yao8.c	135;"	d	file:
+MACRO2_RGRAD	../src/Yao8.c	183;"	d	file:
+MACRO2_RGRADT	../src/Yao8.c	186;"	d	file:
+MACRO2_SEPS	../src/Yao8.c	114;"	d	file:
+MACRO2_SEQAPTD	../src/Yao8.c	324;"	d	file:
+MACRO2_SEQAPTDT	../src/Yao8.c	327;"	d	file:
+MACRO2_SEQPD	../src/Yao8.c	307;"	d	file:
+MACRO2_SEQPDT	../src/Yao8.c	310;"	d	file:
+MACRO2_SEQPOD	../src/Yao8.c	316;"	d	file:
+MACRO2_SEQPODT	../src/Yao8.c	319;"	d	file:
+MACRO2_SETA	../src/Yao8.c	202;"	d	file:
+MACRO2_SETAT	../src/Yao8.c	205;"	d	file:
+MACRO2_STOTB	../src/Yao8.c	361;"	d	file:
+MACRO2_STOTBT	../src/Yao8.c	364;"	d	file:
+MACRO2_SWISH	../src/Yao8.c	218;"	d	file:
+MACRO2_TBTOG	../src/Yao8.c	223;"	d	file:
+MACRO2_TBTOGT	../src/Yao8.c	226;"	d	file:
+MACRO2_VALSG	../src/Yao8.c	139;"	d	file:
+MACRO2_VALSGI	../src/Yao8.c	143;"	d	file:
+MACRO2_VALSIT	../src/Yao8.c	155;"	d	file:
+MACRO2_VALST	../src/Yao8.c	151;"	d	file:
+MACRO2_VDEL	../src/Yao8.c	438;"	d	file:
+MACRO2_VDELT	../src/Yao8.c	441;"	d	file:
+MACRO2_VDXMI	../src/Yao8.c	429;"	d	file:
+MACRO2_VDXMIT	../src/Yao8.c	432;"	d	file:
+MACRO2_VGRAD	../src/Yao8.c	405;"	d	file:
+MACRO2_VGRADT	../src/Yao8.c	408;"	d	file:
+MACRO2_VSTA	../src/Yao8.c	397;"	d	file:
+MACRO2_VSTAT	../src/Yao8.c	400;"	d	file:
+MACRO2_VXINF	../src/Yao8.c	413;"	d	file:
+MACRO2_VXINFT	../src/Yao8.c	416;"	d	file:
+MACRO2_VXSUP	../src/Yao8.c	421;"	d	file:
+MACRO2_VXSUPT	../src/Yao8.c	424;"	d	file:
+MACRO2_WEQPS	../src/Yao8.c	352;"	d	file:
+MACRO2_WEQPST	../src/Yao8.c	355;"	d	file:
+MACRO2_YIOTU	../src/Yao8.c	210;"	d	file:
+MACRO2_YIOUT	../src/Yao8.c	213;"	d	file:
+MACRO3_ADJUD	../src/Yao8.c	249;"	d	file:
+MACRO3_ADJUDT	../src/Yao8.c	252;"	d	file:
+MACRO3_ADJUK	../src/Yao8.c	257;"	d	file:
+MACRO3_ADJUKT	../src/Yao8.c	260;"	d	file:
+MACRO3_ADJUS	../src/Yao8.c	120;"	d	file:
+MACRO3_ADJUST	../src/Yao8.c	123;"	d	file:
+MACRO3_CREU	../src/Yao8.c	178;"	d	file:
+MACRO3_CREY	../src/Yao8.c	175;"	d	file:
+MACRO3_DEQPG	../src/Yao8.c	300;"	d	file:
+MACRO3_DEQPGT	../src/Yao8.c	303;"	d	file:
+MACRO3_DEQPS	../src/Yao8.c	292;"	d	file:
+MACRO3_DEQPST	../src/Yao8.c	295;"	d	file:
+MACRO3_GCTOTB	../src/Yao8.c	232;"	d	file:
+MACRO3_GCTOTBT	../src/Yao8.c	235;"	d	file:
+MACRO3_GDEL	../src/Yao8.c	447;"	d	file:
+MACRO3_GDELT	../src/Yao8.c	450;"	d	file:
+MACRO3_GEQPD	../src/Yao8.c	268;"	d	file:
+MACRO3_GEQPDT	../src/Yao8.c	271;"	d	file:
+MACRO3_GEQPOS	../src/Yao8.c	341;"	d	file:
+MACRO3_GEQPOST	../src/Yao8.c	344;"	d	file:
+MACRO3_GEQPS	../src/Yao8.c	333;"	d	file:
+MACRO3_GEQPST	../src/Yao8.c	336;"	d	file:
+MACRO3_GEQV	../src/Yao8.c	276;"	d	file:
+MACRO3_GEQVT	../src/Yao8.c	279;"	d	file:
+MACRO3_GSTA	../src/Yao8.c	390;"	d	file:
+MACRO3_GSTAT	../src/Yao8.c	393;"	d	file:
+MACRO3_GTOTB	../src/Yao8.c	370;"	d	file:
+MACRO3_GTOTBT	../src/Yao8.c	373;"	d	file:
+MACRO3_HERESGI	../src/Yao8.c	148;"	d	file:
+MACRO3_HERESIT	../src/Yao8.c	160;"	d	file:
+MACRO3_IRMOD	../src/Yao8.c	128;"	d	file:
+MACRO3_NOWMOD	../src/Yao8.c	132;"	d	file:
+MACRO3_OUTOB	../src/Yao8.c	194;"	d	file:
+MACRO3_OUTOBT	../src/Yao8.c	197;"	d	file:
+MACRO3_PTRMOD	../src/Yao8.c	136;"	d	file:
+MACRO3_RGRAD	../src/Yao8.c	184;"	d	file:
+MACRO3_RGRADT	../src/Yao8.c	187;"	d	file:
+MACRO3_SEPS	../src/Yao8.c	115;"	d	file:
+MACRO3_SEQAPTD	../src/Yao8.c	325;"	d	file:
+MACRO3_SEQAPTDT	../src/Yao8.c	328;"	d	file:
+MACRO3_SEQPD	../src/Yao8.c	308;"	d	file:
+MACRO3_SEQPDT	../src/Yao8.c	311;"	d	file:
+MACRO3_SEQPOD	../src/Yao8.c	317;"	d	file:
+MACRO3_SEQPODT	../src/Yao8.c	320;"	d	file:
+MACRO3_SETA	../src/Yao8.c	203;"	d	file:
+MACRO3_SETAT	../src/Yao8.c	206;"	d	file:
+MACRO3_STOTB	../src/Yao8.c	362;"	d	file:
+MACRO3_STOTBT	../src/Yao8.c	365;"	d	file:
+MACRO3_SWISH	../src/Yao8.c	219;"	d	file:
+MACRO3_TBTOG	../src/Yao8.c	224;"	d	file:
+MACRO3_TBTOGT	../src/Yao8.c	227;"	d	file:
+MACRO3_VALSG	../src/Yao8.c	140;"	d	file:
+MACRO3_VALSGI	../src/Yao8.c	144;"	d	file:
+MACRO3_VALSIT	../src/Yao8.c	156;"	d	file:
+MACRO3_VALST	../src/Yao8.c	152;"	d	file:
+MACRO3_VDEL	../src/Yao8.c	439;"	d	file:
+MACRO3_VDELT	../src/Yao8.c	442;"	d	file:
+MACRO3_VDXMI	../src/Yao8.c	430;"	d	file:
+MACRO3_VDXMIT	../src/Yao8.c	433;"	d	file:
+MACRO3_VGRAD	../src/Yao8.c	406;"	d	file:
+MACRO3_VGRADT	../src/Yao8.c	409;"	d	file:
+MACRO3_VSTA	../src/Yao8.c	398;"	d	file:
+MACRO3_VSTAT	../src/Yao8.c	401;"	d	file:
+MACRO3_VXINF	../src/Yao8.c	414;"	d	file:
+MACRO3_VXINFT	../src/Yao8.c	417;"	d	file:
+MACRO3_VXSUP	../src/Yao8.c	422;"	d	file:
+MACRO3_VXSUPT	../src/Yao8.c	425;"	d	file:
+MACRO3_WEQPS	../src/Yao8.c	353;"	d	file:
+MACRO3_WEQPST	../src/Yao8.c	356;"	d	file:
+MACRO3_YIOTU	../src/Yao8.c	211;"	d	file:
+MACRO3_YIOUT	../src/Yao8.c	214;"	d	file:
+MACRO9_OUTOB	../src/Yao8.c	198;"	d	file:
+MACRO_AXEY	../src/Yao8.c	110;"	d	file:
+MAX_AXE_NEIBOUR	../src/Yao8.c	4550;"	d	file:
+MAX_IO_NEIBOUR	../src/Yao8.c	4549;"	d	file:
+MAX_TIME_NEIBOUR	../src/Yao8.c	4551;"	d	file:
+MRobs	Dyniob.h	/^struct Yst_nodo *MRobs; \/* un pointeur sur le Modul  s\/Root courant trouve *\/$/;"	v	typeref:struct:Yst_nodo
+MYMAXREEL	Dynamo.h	251;"	d
+NB_MAX_ARG_CDE	../src/Yao8.c	474;"	d	file:
+NB_MAX_ARG_CDE	Dynide.h	28;"	d
+NB_MAX_CONNECT	../src/Yao8.c	477;"	d	file:
+NB_MAX_DEFVAL	../src/Yao8.c	478;"	d	file:
+NB_MAX_HAT	../src/Yao8.c	479;"	d	file:
+NB_MAX_MACRO	../src/Yao8.c	483;"	d	file:
+NB_MAX_MODUL	../src/Yao8.c	473;"	d	file:
+NB_MAX_NETWARD	../src/Yao8.c	476;"	d	file:
+NB_MAX_OPERA	../src/Yao8.c	482;"	d	file:
+NB_MAX_ORD_TOK	../src/Yao8.c	475;"	d	file:
+NB_MAX_SPACE	../src/Yao8.c	481;"	d	file:
+NB_MAX_TRAJ	../src/Yao8.c	480;"	d	file:
+NON	Dynide.h	34;"	d
+Name	Dynamo.h	/^	char		Name[STRSIZE80+1];$/;"	m	struct:Yst_defval
+Name	Dynamo.h	/^	char		Name[STRSIZE80+1];$/;"	m	struct:Yst_modul
+Name	Dynamo.h	/^	char		Name[STRSIZE80+1];$/;"	m	struct:Yst_netward
+NbConnect	../src/Yao8.c	/^	int			NbConnect=0;															\/* nombre de connections du graphe en une maille *\/$/;"	v
+NbDefval	../src/Yao8.c	/^	int			NbDefval=0;															  \/* nombre de defval *\/$/;"	v
+NbHat	../src/Yao8.c	/^	int			NbHat=0;															  	\/* nombre de chapeaux *\/$/;"	v
+NbMod2adf	../src/Yao8.c	/^	int     NbMod2adf=0;                              \/* nombre de modules a deriver automatiquement *\/$/;"	v
+NbModul	../src/Yao8.c	/^	int			NbModul=0;													\/* nombre de module *\/$/;"	v
+NbNetward	../src/Yao8.c	/^	int			NbNetward=0;															\/* nombre de reseaux de neurones *\/$/;"	v
+NbOpera	../src/Yao8.c	/^	int			NbOpera=0;													\/* nombre d'operateur *\/$/;"	v
+NbSpace	../src/Yao8.c	/^	int			NbSpace=0;													\/* nombre d'espaces *\/$/;"	v
+NbTraj	../src/Yao8.c	/^	int			NbTraj=0;													  \/* nombre de trajectoire *\/$/;"	v
+OFF	Dynide.h	30;"	d
+OK	Dynide.h	31;"	d
+ON	Dynide.h	29;"	d
+OUI	Dynide.h	33;"	d
+O_AUTODF	../src/Yao8.c	/^	short		O_AUTODF   = 0;         \/* option pour la derivation automatique des modules: 1=>ONLY, 2=>ALL *\/$/;"	v
+O_DBG_BETA	../src/Yao8.c	/^	short		O_DBG_BETA = 0;					\/* mode deboggage pour Ytbeta *\/$/;"	v
+O_DBG_NANF	../src/Yao8.c	/^	short		O_DBG_NANF = 0;					\/* mode deboggage pour finite : NaN et\/ou Inf -> NANF *\/$/;"	v
+O_DBG_TING	../src/Yao8.c	/^	short		O_DBG_TING = 0;					\/* mode deboggage pour Yting *\/$/;"	v
+O_DBG_TRC_AWARD	../src/Yao8.c	/^	short		O_DBG_TRC_AWARD = 0;    \/* mode deboggage: tracage de toutes (All) les fonctions *ward_order *\/$/;"	v
+O_DBG_TRC_BWARD	../src/Yao8.c	/^	short		O_DBG_TRC_BWARD = 0;    \/* mode deboggage: tracage de la fonction backward_order *\/$/;"	v
+O_DBG_TRC_FWARD	../src/Yao8.c	/^	short		O_DBG_TRC_FWARD = 0;    \/* mode deboggage: tracage de la fonction  forward_order *\/$/;"	v
+O_DBG_TRC_LWARD	../src/Yao8.c	/^	short		O_DBG_TRC_LWARD = 0;    \/* mode deboggage: tracage de la fonction  linward_order *\/$/;"	v
+O_GRADTEST	../src/Yao8.c	/^	short		O_GRADTEST = 0;					\/* option test calcul derivee *\/$/;"	v
+O_M1QN3	../src/Yao8.c	/^	short		O_M1QN3    = 0;					\/* option pour m1qn3 *\/$/;"	v
+O_NETWARD	../src/Yao8.c	/^	short		O_NETWARD  = 0;					\/* option pour les fonction reseaux de neurones *\/$/;"	v
+O_PARAL	../src/Yao8.c	/^	short		O_PARAL    = 0;					\/* option pour le parallelisme *\/$/;"	v
+O_TOOL	../src/Yao8.c	/^	short		O_TOOL     = 0;					\/* option pour les fonction de manipulation (nb:si O_GRADTEST=>O_TOOL) *\/$/;"	v
+O_VARINCR	../src/Yao8.c	/^	short		O_VARINCR  = 0;					\/* option pour le 4DVAR incremental *\/$/;"	v
+Offtime	../src/Yao8.c	/^	float   Offtime, Dtime;$/;"	v
+PI	Dynide.h	35;"	d
+PSeq	../src/Yao8.c	/^	char		PSeq[LG_MAX_STRING +1];	\/* Seq: sequence courante; PSeq: sequence precedante. *\/$/;"	v
+PrjName	../src/Yao8.c	/^	char		PrjName[LG_MAX_STRING + 1];					\/* nom du projet *\/$/;"	v
+RUNL1_M1QN3	Dynamo.h	/^	  RUNL1_M1QN3		 \/* soit 'a la maniere de'  m1qn3 *\/$/;"	e	enum:YRunL1Kind
+RUNL1_STD	Dynamo.h	/^{		RUNL1_STD,			 \/* soit methode de base simple, standard *\/$/;"	e	enum:YRunL1Kind
+RUNL2_INCR	Dynamo.h	/^		RUNL2_INCR			\/* soit algo incremental *\/$/;"	e	enum:YRunL2Kind
+RUNL2_STD	Dynamo.h	/^{		RUNL2_STD,				\/* soit algo de base simple, standard *\/$/;"	e	enum:YRunL2Kind
+Rtoken	../src/Yao8.c	/^struct st_token	*Rtoken;$/;"	v	typeref:struct:st_token
+SRobs	Dyniob.h	/^struct Yst_nodo *SRobs; \/* un pointeur sur la Sortie s\/Root courant trouve (dim>0 forcement)*\/$/;"	v	typeref:struct:Yst_nodo
+STRSIZE20	Dynide.h	26;"	d
+STRSIZE80	Dynide.h	27;"	d
+Seq	../src/Yao8.c	/^	char		Seq[LG_MAX_STRING +1];	\/* pour la gestion du sequencement des commandes : *\/$/;"	v
+SigLin	Dynamo.h	/^typedef enum {SigLin, SigSig} Activation;$/;"	e	enum:__anon1
+SigSig	Dynamo.h	/^typedef enum {SigLin, SigSig} Activation;$/;"	e	enum:__anon1
+Sizeco	../src/Yao8.c	/^	int			Sizeco = 0;								\/* nombre de modules de type cout pour les fonctions de test (atempo) *\/$/;"	v
+Sizepb	../src/Yao8.c	/^	long		Sizepb = 0;								\/* Taille du probleme = somme des nombre d'etats des targets *\/$/;"	v
+StrTmps	../src/Yao8.c	/^	char		StrTmps[LG_MAX_NAME+1];$/;"	v
+TAxe	../src/Yao8.c	/^	int			TAxe[3] = {0, 0, 0};			\/* Tableau de flaguage des axes *\/$/;"	v
+TConnect	../src/Yao8.c	/^	struct	st_connect TConnect[NB_MAX_CONNECT];			\/* table de stokage des connections *\/$/;"	v	typeref:struct:st_connect
+TDefval	../src/Yao8.c	/^	struct  st_defval  TDefval[NB_MAX_DEFVAL];        \/* tab de stockage des defval *\/$/;"	v	typeref:struct:st_defval
+TFlagModOp	../src/Yao8.c	/^	short   TFlagModOp[NB_MAX_MODUL][NB_MAX_OPERA]; \/* table flag association module\/operateurs *\/$/;"	v
+THat	../src/Yao8.c	/^	char		THat[NB_MAX_HAT][LG_MAX_STRING + 1];			\/* Tableau des chapeaux.h *\/$/;"	v
+TModul	../src/Yao8.c	/^	struct	st_modul	TModul[NB_MAX_MODUL];			\/* table de stokage des modules *\/$/;"	v	typeref:struct:st_modul
+TNetward	../src/Yao8.c	/^	struct	st_netward TNetward[NB_MAX_NETWARD];			\/* table de stokage des reseaux de neurones *\/$/;"	v	typeref:struct:st_netward
+TObjCal	../src/Yao8.c	/^	struct  st_space  *TObjCal;                 \/* emprunt de la structure st_space pour creer un pointeur de$/;"	v	typeref:struct:st_space
+TOpera	../src/Yao8.c	/^	struct	st_opera	TOpera[NB_MAX_OPERA];			\/* table de stokage des operateur *\/$/;"	v	typeref:struct:st_opera
+TOrdtok	../src/Yao8.c	/^	char		TOrdtok[NB_MAX_ORD_TOK][LG_MAX_STRING + 1];	\/* Tableau des tokens de order *\/$/;"	v
+TRobs	Dynamo.h	/^  struct  Yst_nodo *TRobs;      \/\/ un pointeur sur le Time   s\/Root courant trouve$/;"	m	struct:Yst_traj	typeref:struct:Yst_traj::Yst_nodo
+TRobs	Dyniob.h	/^struct Yst_nodo *TRobs; \/* un pointeur sur le Time   s\/Root courant trouve *\/$/;"	v	typeref:struct:Yst_nodo
+TSpace	../src/Yao8.c	/^	struct	st_space	TSpace[NB_MAX_SPACE];			\/* table de stokage des espaces *\/$/;"	v	typeref:struct:st_space
+TTraj	../src/Yao8.c	/^	struct	st_traj	TTraj[NB_MAX_TRAJ];					\/* table de stokage des trajectoires *\/$/;"	v	typeref:struct:st_traj
+Tadr	Dynamo.h	/^	void		*Tadr;$/;"	m	struct:Yst_modul
+WISHL2_DIFF	Dynamo.h	/^    ,WISHL2_DIFF	     \/*  *\/$/;"	e	enum:YCostL2Kind
+WISHL2_NANACT	Dynamo.h	/^		WISHL2_NANACT		   \/*  *\/$/;"	e	enum:YCostL2Kind
+WISHL2_QTEA	Dynamo.h	/^    ,WISHL2_QTEA	     \/*  *\/$/;"	e	enum:YCostL2Kind
+Wa	../src/Yao8.c	/^	char		Wa, Wb, Wc;$/;"	v
+Wa1	../src/Yao8.c	/^	int			Wa1, Wa2, Wa3;						\/* Dimension du module en cours *\/$/;"	v
+Wa2	../src/Yao8.c	/^	int			Wa1, Wa2, Wa3;						\/* Dimension du module en cours *\/$/;"	v
+Wa3	../src/Yao8.c	/^	int			Wa1, Wa2, Wa3;						\/* Dimension du module en cours *\/$/;"	v
+Wb	../src/Yao8.c	/^	char		Wa, Wb, Wc;$/;"	v
+Wc	../src/Yao8.c	/^	char		Wa, Wb, Wc;$/;"	v
+Wdim	../src/Yao8.c	/^	int			Wdim; 										\/* dimension de l'espace d'un module (peut etre different selon inter ? *\/$/;"	v
+Wmaxjacnbi	../src/Yao8.c	/^	int			Wmaxjacnbi = 0;						\/* nombre max d'entrees pour la jacobienne Yjac	*\/$/;"	v
+Wmaxjacnbs	../src/Yao8.c	/^	int			Wmaxjacnbs = 0;						\/* nombre max de sorties pour la jacobienne Yjac *\/$/;"	v
+Wmaxnbi	../src/Yao8.c	/^	int			Wmaxnbi = 0;							\/* nombre max d'entrees trouve pour un module	*\/$/;"	v
+Wmaxnbs	../src/Yao8.c	/^	int			Wmaxnbs = 0;							\/* nombre max de sorties trouve pour un module *\/$/;"	v
+Wnb	../src/Yao8.c	/^	int			Wnb;											\/* nombre de mailles de l'espace = dim axe1 [* dim axe2 [* dim axe3]] *\/$/;"	v
+Wnbi	../src/Yao8.c	/^	int			Wnbi, Wnbs;								\/* nombre d'entrees, de sorties du module courant *\/$/;"	v
+Wnbs	../src/Yao8.c	/^	int			Wnbi, Wnbs;								\/* nombre d'entrees, de sorties du module courant *\/$/;"	v
+Wstra1	../src/Yao8.c	/^	char		Wstra1[LG_MAX_NAME+1], Wstra2[LG_MAX_NAME+1], Wstra3[LG_MAX_NAME+1];$/;"	v
+Wstra2	../src/Yao8.c	/^	char		Wstra1[LG_MAX_NAME+1], Wstra2[LG_MAX_NAME+1], Wstra3[LG_MAX_NAME+1];$/;"	v
+Wstra3	../src/Yao8.c	/^	char		Wstra1[LG_MAX_NAME+1], Wstra2[LG_MAX_NAME+1], Wstra3[LG_MAX_NAME+1];$/;"	v
+Wtempo	../src/Yao8.c	/^	int			Wtempo;$/;"	v
+Y3_SZ_DZS	Dynmqn.h	5;"	d
+Y3_SZ_IZS	Dynmqn.h	3;"	d
+Y3_SZ_RZS	Dynmqn.h	4;"	d
+Y3ddf1	Dynmqn.h	/^float		Y3ddf1;									\/* (I)pour calculer df1 *\/$/;"	v
+Y3df1	Dynmqn.h	/^float		Y3df1;									\/* (I)decroissance =  fcost\/ddf1 souhaitee a la 1ere iterationxminxminxminxmin *\/$/;"	v
+Y3dzs	Dynmqn.h	/^double 	Y3dzs[Y3_SZ_DZS];				\/* (I)working areas *\/$/;"	v
+Y3epsg	Dynmqn.h	/^float		Y3epsg;									\/* (IO)critere d'arret: |grad(k)| \/ |grad1| < epsg *\/$/;"	v
+Y3f	Dynmqn.h	/^float		Y3f;										\/* fonction de cout a passer a m1qn3 *\/$/;"	v
+Y3impres	Dynmqn.h	/^long		Y3impres;								\/* (I)control des impressions (cf art.m1qn3) *\/$/;"	v
+Y3io	Dynmqn.h	/^long		Y3io;										\/* (I)canal de sortie pour les impressions *\/$/;"	v
+Y3iz	Dynmqn.h	/^long 		Y3iz[Y3_SZ_IZ];					\/* (IO)working array *\/$/;"	v
+Y3izs	Dynmqn.h	/^long		Y3izs[Y3_SZ_IZS];				\/* (I)working areas *\/	$/;"	v
+Y3m	../src/Yao8.c	/^	int			Y3m=0;																		\/* parametre de taille pour m1qn3             *\/$/;"	v
+Y3mode	Dynmqn.h	/^long		Y3mode;									\/* (IO)DIS or SIS mode (0,1); cold start or warm restart (0,1) *\/$/;"	v
+Y3modo	Dynamo.h	/^long    Y3modo;               \/*  mode de sortie de m1qn3 (a toute fin utile) *\/$/;"	v
+Y3n	Dynmqn.h	/^long		Y3n;										\/* taille du pb (a alimenter par YSIZEPB a generer par Yao *\/$/;"	v
+Y3nrz	Dynmqn.h	/^long		Y3nrz;									\/* taille de la zone rz *\/$/;"	v
+Y3nsim	Dynmqn.h	/^long		Y3nsim;									\/* (IO)nombre maxi de simulation (cf art.m1qn3) *\/$/;"	v
+Y3run	Dynmqn.h	/^int Y3run(char vers)$/;"	f
+Y3rzs	Dynmqn.h	/^float 	Y3rzs[Y3_SZ_RZS];				\/* (I)working areas *\/$/;"	v
+Y3simul	Dynmqn.h	/^void Y3simul (int *indic, long *n, float x[], float *fcost, float g[],$/;"	f
+Y3szrz2	../src/Yao8.c	/^	long		Y3szrz2, Y3szrz3;													\/* taille des vecteurs pour m1qn2 et\/ou m1qn3 *\/$/;"	v
+Y3szrz3	../src/Yao8.c	/^	long		Y3szrz2, Y3szrz3;													\/* taille des vecteurs pour m1qn2 et\/ou m1qn3 *\/$/;"	v
+Y3windice	Dynamo.h	/^int			Y3windice;						\/* indice de travail pour l'affectation des tableaux Y3x et Y3g *\/$/;"	v
+YA1	Dynamo.h	/^int      YA1, YA2, YA3;					\/* taille des axes de l'espace courant *\/$/;"	v
+YA2	Dynamo.h	/^int      YA1, YA2, YA3;					\/* taille des axes de l'espace courant *\/$/;"	v
+YA3	Dynamo.h	/^int      YA1, YA2, YA3;					\/* taille des axes de l'espace courant *\/$/;"	v
+YAL1Run	Dynamo.h	/^enum		 YRunL1Kind	YAL1Run=RUNL1_STD; \/* mode (algo) du run au 1er niveau (default=standard : definie par la commande run utilisee) *\/$/;"	v	typeref:enum:YRunL1Kind
+YAL2Run	Dynamo.h	/^enum		 YRunL2Kind	YAL2Run=RUNL2_STD; \/* mode (algo) du run au 2em niveau (default=standard : definie par la commande run utilisee) *\/$/;"	v	typeref:enum:YRunL2Kind
+YAdRes	Dynamo.h	/^double	 YLTRes, YAdRes;				\/* resultat des tests de l'adjoint par module *\/$/;"	v
+YAdjustKind	Dynamo.h	/^enum YAdjustKind	\/* le type d'ajustement : *\/$/;"	g
+YCaseCost	Dynamo.h	/^enum 		 YCostL2Kind YCaseCost=COSTL2_GRAD; \/\/COSTL2_GRAD;	\/*  *\/$/;"	v	typeref:enum:YCostL2Kind
+YCoefGrad	Dynamo.h	/^double   YCoefGrad = 1.0;				\/* coeff de calcul du gradient (defaut=1) *\/$/;"	v
+YCostKind	Dynamo.h	/^enum YCostKind		\/* les fonctions de cout : *\/$/;"	g
+YCostL2Kind	Dynamo.h	/^enum YCostL2Kind		\/* les fonctions de cout : *\/$/;"	g
+YDELTA	../src/Yao8.c	91;"	d	file:
+YDispCost	Dynamo.h	/^int			 YDispCost;							\/* boolean pour l'affichage du cout *\/$/;"	v
+YDispTime	Dynamo.h	/^int			 YDispTime;							\/* boolean pour l'affichage du temps *\/$/;"	v
+YEPSI	../src/Yao8.c	86;"	d	file:
+YEcho	Dynamo.h	/^int			 YEcho = ON;						\/* echo de la commande *\/$/;"	v
+YGRAD	../src/Yao8.c	84;"	d	file:
+YI	../src/Yao8.c	87;"	d	file:
+YIO_LISTOBS	Dynamo.h	/^		YIO_LISTOBS			 \/* liste des observations *\/$/;"	e	enum:YioKind
+YIO_LOADOBS	Dynamo.h	/^		YIO_LOADOBS,		 \/* chargement des observations *\/$/;"	e	enum:YioKind
+YIO_LOADSTATE	Dynamo.h	/^{		YIO_LOADSTATE,	 \/* chargement des etats (not yet) *\/$/;"	e	enum:YioKind
+YIO_OBSTOUT	Dynamo.h	/^		YIO_OBSTOUT,		 \/* copie obs->state (not yet & why?) *\/$/;"	e	enum:YioKind
+YIO_OUTOEBX	Dynamo.h	/^		YIO_OUTOEBX,		 \/* copie state->ebauche (in the same arbobs) *\/$/;"	e	enum:YioKind
+YIO_OUTOOBS	Dynamo.h	/^		YIO_OUTOOBS,		 \/* copie state->obs *\/$/;"	e	enum:YioKind
+YIO_SAVEOBS	Dynamo.h	/^		YIO_SAVEOBS,		 \/* sauvegarde des observations (not yet & why?) *\/$/;"	e	enum:YioKind
+YIO_SAVESTATE	Dynamo.h	/^		YIO_SAVESTATE,	 \/* sauvegarde des etats *\/$/;"	e	enum:YioKind
+YItBasicIntL	Dynamo.h	/^int      YItBasicIntL;          \/* iteration de la boucle interne a basic_it *\/$/;"	v
+YItRun	Dynamo.h	/^long		 YItRun;								\/* l'iteration courante du run *\/$/;"	v
+YJ	../src/Yao8.c	88;"	d	file:
+YK	../src/Yao8.c	89;"	d	file:
+YLTRes	Dynamo.h	/^double	 YLTRes, YAdRes;				\/* resultat des tests de l'adjoint par module *\/$/;"	v
+YLobs	Dyniob.h	/^struct Yst_fobs *YLobs; \/* un pointeur sur l'element courant de la liste des obs *\/$/;"	v	typeref:struct:Yst_fobs
+YM_EXE	Dynamo.h	/^short		 YM_EXE;  							\/* Mode d'execution: 'B': Batch; 'I': intercatif *\/$/;"	v
+YNBALLTIME	Dynamo.h	/^int      YNBUPTIME, YNBALLTIME;$/;"	v
+YNBUPTIME	Dynamo.h	/^int      YNBUPTIME, YNBALLTIME;$/;"	v
+YNbBasicIntL	Dynamo.h	/^int      YNbBasicIntL = 1;      \/* nombre de boucle interne a basic_it, modifiable avec set_nb_basic_intern_loop (default=1) *\/$/;"	v
+YNbExtL	Dynamo.h	/^long		 YNbExtL;							  \/* nombre de boucles externes pour les algo incrementaux *\/$/;"	v
+YNbItRun	Dynamo.h	/^long		 YNbItRun;							\/* nombre d'itérations demande ((IO)niter p\/m1qn3) *\/$/;"	v
+YO_AUTODF	../src/Yaoopt.h	8;"	d
+YO_GRADTEST	../src/Yaoopt.h	2;"	d
+YO_LINWARD	Dynamo.cpp	1344;"	d	file:
+YO_LINWARD	Dynamo.cpp	1347;"	d	file:
+YO_M1QN3	../src/Yaoopt.h	4;"	d
+YO_NETWARD	../src/Yaoopt.h	5;"	d
+YO_PARAL	../src/Yaoopt.h	3;"	d
+YO_TOOL	../src/Yao8.c	78;"	d	file:
+YO_TOOL	../src/Yaoopt.h	6;"	d
+YO_VARINCR	../src/Yaoopt.h	7;"	d
+YPROG	../src/Makefile	/^YPROG=Yao8$/;"	m
+YPrompt	Dynamo.h	/^char		 YPrompt[STRSIZE20+1];	\/* le prompt pour la saisie des commandes *\/$/;"	v
+YREAL	../src/Yao8.c	/^	char		YREAL[7] = "double";											\/* pour state et grad, double est le type par defaut *\/$/;"	v
+YRobs	Dynamo.h	/^	struct  Yst_nodo *YRobs;      \/\/=NULL; \/\/ Racine de l'Arborescence des observations$/;"	m	struct:Yst_traj	typeref:struct:Yst_traj::Yst_nodo
+YRobs	Dyniob.h	/^struct Yst_nodo *YRobs=NULL; \/* Racine de l'Arborescence des observations *\/$/;"	v	typeref:struct:Yst_nodo
+YRunL1Kind	Dynamo.h	/^enum YRunL1Kind		\/* type de run (run algo mode) au 1er niveau :*\/$/;"	g
+YRunL2Kind	Dynamo.h	/^enum YRunL2Kind		\/* le mode de fonctionnement de run (run algo mode), 2ème niveau : *\/$/;"	g
+YSTATE	../src/Yao8.c	83;"	d	file:
+YTEMPS	../src/Yao8.c	90;"	d	file:
+YTODimMod	Dyniob.h	/^int		YTODimMod; \/* Dim d'un modul (en cours) dans l'arbre des obs*\/$/;"	v
+YTONamMod	Dyniob.h	/^char	YTONamMod[STRSIZE80+1];	\/* le nom du module en cours ... *\/$/;"	v
+YTemps	Dynamo.h	/^int			 YTemps;								\/* horloge des pas de temps a patir d'NBUPTIME *\/$/;"	v
+YTotalCost	Dynamo.h	/^double   YTotalCost;						\/* cout total *\/$/;"	v
+YTypeAdjust	Dynamo.h	/^enum 		 YAdjustKind YTypeAdjust=ADJUST_STD;	\/* le type d'ajustement (default=standard) *\/$/;"	v	typeref:enum:YAdjustKind
+YTypeCost	Dynamo.h	/^enum 		 YCostKind	 YTypeCost=COST_LMS;	\/* le type de la fonction de cout (default=lms) *\/$/;"	v	typeref:enum:YCostKind
+YWISH	../src/Yao8.c	85;"	d	file:
+YWardKind	Dynamo.h	/^enum YWardKind$/;"	g
+YY_RUNBRK	Dynamo.h	/^int			 YY_RUNBRK=ON;					\/* gestion signal d'interruption pour breaker le run *\/$/;"	v
+Ya1	../src/Yao8.c	/^	int			Dim, Ya1, Ya2, Ya3;				\/* Dimension du gabarit (commune a tous les inner et inter pour partie) *\/$/;"	v
+Ya2	../src/Yao8.c	/^	int			Dim, Ya1, Ya2, Ya3;				\/* Dimension du gabarit (commune a tous les inner et inter pour partie) *\/$/;"	v
+Ya3	../src/Yao8.c	/^	int			Dim, Ya1, Ya2, Ya3;				\/* Dimension du gabarit (commune a tous les inner et inter pour partie) *\/$/;"	v
+Yact_operator	Dynamo.cpp	/^void Yact_operator(char type, short etat)$/;"	f
+Yactraj	Dynamo.cpp	/^int Yactraj(int cdesc, char *cdes[])$/;"	f
+Yadjust	Dynamo.cpp	/^void Yadjust()$/;"	f
+Ybackward	Dynamo.cpp	/^void Ybackward(int itraj, int topstop) \/\/meme principe que forward$/;"	f
+Ybackward_elect	Dynamo.cpp	/^int Ybackward_elect()$/;"	f
+Ybackwardrun	Dynamo.cpp	/^void Ybackwardrun(int itraj, int nbpdt)$/;"	f
+Ybasic_it	Dynamo.cpp	/^void Ybasic_it()$/;"	f
+Ybegintime	Dynamo.h	/^float    Ybegintime = 0.0;      \/* temps initial du modele global *\/$/;"	v
+Yboot_appli	Dynamo.cpp	/^int Yboot_appli (int argc, char *argv[])$/;"	f
+Yc3_run	Dynmqn.h	/^int Yc3_run(char vers)		\/\/runim void Yc3_run(long Yit) avec m1qn3$/;"	f
+Yc3_simul	Dynmqn.h	/^void Yc3_simul (int *indic, long *n, float x[], float *fcost, float g[],$/;"	f
+Yc_adjustd	Dynamo.cpp	/^void Yc_adjustd()		\/* cas de l'incremental: ajustement dx dans la boucle interne *\/$/;"	f
+Yc_run	Dynamo.cpp	/^void Yc_run(long Yit)					\/\/runi$/;"	f
+Ycobs1_list	Dyniob.h	/^void Ycobs1_list(struct Yst_fobs *lobs)$/;"	f
+Ycobs2_list	Dyniob.h	/^void Ycobs2_list(struct Yst_fobs *lobs)$/;"	f
+Ycobs3_list	Dyniob.h	/^void Ycobs3_list(struct Yst_fobs *lobs)$/;"	f
+Ycobs_TR	Dyniob.h	/^void Ycobs_TR(struct Yst_nodo *arbobs)$/;"	f
+Ycost	Dynamo.cpp	/^void Ycost()  \/\/TRobs, YNBUPTIME, YidTraj, YTemps doivent etre posisionned$/;"	f
+Ycostdiff	Dyniob.h	/^YREAL Ycostdiff(YREAL Dinov, YREAL Dcov)$/;"	f
+Ycostebx	Dynamo.cpp	/^void Ycostebx()$/;"	f
+Ycreate_errnew	Dynamo.h	/^void Ycreate_errnew()$/;"	f
+Ycurward	Dynamo.h	/^enum     YWardKind Ycurward;    \/* type du run courant de trajectoire (pour hidjack) *\/$/;"	v	typeref:enum:YWardKind
+Ycx_jac	Dynamo.cpp	/^template<class TypReal> void Ycx_jac(complex<TypReal> derivee, int j, int i)$/;"	f
+Ycxr_jac	Dynamo.cpp	/^template<class TypReal> void Ycxr_jac(complex<TypReal> derivee, int l, int c)$/;"	f
+Ydbg_beta	Dynamo.cpp	/^void Ydbg_beta(char *str, int nbi, char *nmmod)$/;"	f
+Ydbg_nanf	Dynamo.cpp	/^void Ydbg_nanf(char *str, int nbi, char *nmmod)$/;"	f
+Ydbg_ting	Dynamo.cpp	/^void Ydbg_ting(char *str, int nbi, char *nmmod)$/;"	f
+Ydbg_ting_wrk	Dynamo.cpp	/^void Ydbg_ting_wrk(char *str, int nbi, char *nmmod)$/;"	f
+Ydftestijkt	Dyntst.h	/^int Ydftestijkt(int imod)$/;"	f
+Ydftesttt	Dyntst.h	/^int Ydftesttt (int itraj)$/;"	f
+Ydispcurstep	Dynamo.cpp	/^void Ydispcurstep(int itraj)  \/* not realy used because not practical *\/$/;"	f
+Ydmod	Dynamo.h	/^int			 Ydmod;									\/* dimension du module en cours*\/$/;"	v
+Ydxalea	Dyntst.h	/^char Ydxalea[STRSIZE20+1] = "\\0"; \/\/ mais initialement (par defaut) , cet alea est neutralised$/;"	v
+Yendtime	Dynamo.h	/^float    Yendtime   = 0.0;      \/* temps final du modele global   *\/$/;"	v
+Yentry0	Dynamo.cpp	/^int Yentry0 (int argc, char *argv[])$/;"	f
+Yentry1	Dynamo.cpp	/^int Yentry1 (int argc, char *argv[])$/;"	f
+Yerr1tpret	Dynamo.cpp	/^int   Yerr1tpret=0; 					\/* flag d'erreur *\/$/;"	v
+Yerrelmax	Dynamo.h	/^double	 Yerrelmax;		  				\/* une erreur relative max *\/$/;"	v
+Yfarg	Dynamo.cpp	/^int Yfarg(int(*fct)(int argc, char *argv[]), char *args)$/;"	f
+Yforward	Dynamo.cpp	/^int Yforward(int itraj, int topstop)$/;"	f
+Yforward_elect	Dynamo.cpp	/^int Yforward_elect()$/;"	f
+Yforwardcost	Dynamo.cpp	/^void Yforwardcost()$/;"	f
+Yforwardrun	Dynamo.cpp	/^void Yforwardrun(int itraj, int nbpdt)$/;"	f
+Ygetval	Dynamo.h	/^double Ygetval(char *codop) \/\/creed pour dx random des fonctions de test$/;"	f
+Yhelp	Dynamo.cpp	/^void Yhelp(char lang)$/;"	f
+Yi	Dynamo.h	/^int			 Yi, Yj, Yk;						\/* indice de parcourt de l'espace gabarit *\/$/;"	v
+YidTraj	Dynamo.h	/^int      YidTraj;							  \/* indice de la trajectoire courante*\/$/;"	v
+Yimod	Dynamo.cpp	/^int Yimod(char *nmmod)$/;"	f
+Yinet	Dynamo.cpp	/^int Yinet(char *nmnet)$/;"	f
+Yinterprete_cde	Dynamo.cpp	/^int Yinterprete_cde(int cdesc, char *cdes[])$/;"	f
+Yinv_tri_mat	Dynamo.cpp	/^template<class TypVal>int Yinv_tri_mat (int mat_dim, TypVal inf[], TypVal diag[], TypVal sup[], TypVal mat_inv[])$/;"	f
+Yinv_tri_vect	Dynamo.cpp	/^template<class TypVal>int	Yinv_tri_vect (int mat_dim, TypVal vect[], TypVal prod[], TypVal inf[], TypVal diag[], TypVal sup[])$/;"	f
+YioAscii	Dynamo.h	/^short	   YioBin, YioAscii;			\/* flag pour le type de stockage des donnees: binaire ou ascii *\/$/;"	v
+YioAxes	Dynamo.h	/^short		 YioState, YioTime, YioAxes; \/* flag pour la convention, le format de stockage des donnees *\/$/;"	v
+YioBin	Dynamo.h	/^short	   YioBin, YioAscii;			\/* flag pour le type de stockage des donnees: binaire ou ascii *\/$/;"	v
+YioDi	Dynamo.h	/^int			 YioDi, YioDj, YioDk;		\/* dimension d'un espace exterieur a charger *\/$/;"	v
+YioDj	Dynamo.h	/^int			 YioDi, YioDj, YioDk;		\/* dimension d'un espace exterieur a charger *\/$/;"	v
+YioDk	Dynamo.h	/^int			 YioDi, YioDj, YioDk;		\/* dimension d'un espace exterieur a charger *\/$/;"	v
+YioInsertObsCtr	Dynamo.h	/^int		   YioInsertObsCtr=-1;		\/* compteur d'obs inserees (-1 pour savoir si y'a au moins 1 obs. Utile pour testad *\/	$/;"	v
+YioKind	Dynamo.h	/^enum YioKind		  \/* le cas d'io concerne : *\/$/;"	g
+YioModulot	Dynamo.h	/^short		 YioModulot;						\/* modulo t pour les sauvegardes de donnees *\/$/;"	v
+YioOvrObsCtr	Dynamo.h	/^int		   YioOvrObsCtr;					\/* compteur d'obs overidees *\/	$/;"	v
+YioRead	Dynamo.h	/^short	   YioWrite, YioRead;			\/* flag (booleen) pour le mode de fonctionnement des fct d'entree\/sortie *\/$/;"	v
+YioSelectedCtr	Dynamo.h	/^int		   YioSelectedCtr;				\/* compteur de selection *\/	$/;"	v
+YioSep	Dynamo.h	/^char     YioSep[STRSIZE20]="\\n";\/* chaine de caratères pour la separation de token dans les fct d'io (modifiable pas set_sep) *\/$/;"	v
+YioState	Dynamo.h	/^short		 YioState, YioTime, YioAxes; \/* flag pour la convention, le format de stockage des donnees *\/$/;"	v
+YioTime	Dynamo.h	/^short		 YioState, YioTime, YioAxes; \/* flag pour la convention, le format de stockage des donnees *\/$/;"	v
+YioWrite	Dynamo.h	/^short	   YioWrite, YioRead;			\/* flag (booleen) pour le mode de fonctionnement des fct d'entree\/sortie *\/$/;"	v
+Yio_end	Dyniob.h	/^int Yio_end()$/;"	f
+Yio_load	Dyniob.h	/^int Yio_load (YioKind yiokind, char *modname, char *odaxe, int pdt, char *filename)$/;"	f
+Yio_lspace	Dyniob.h	/^int Yio_lspace (char *nmmod, char *odaxe, int pdt, int state)		$/;"	f
+Yio_lstate	Dyniob.h	/^int Yio_lstate (char *nmmod, char *oaxis, int pdt)$/;"	f
+Yio_ltime	Dyniob.h	/^int Yio_ltime (char *nmmod, char *oaxis, int pdt)$/;"	f
+Yio_savestate	Dyniob.h	/^int Yio_savestate (char *objname, char *oaxis, int pdt, char *filename)$/;"	f
+Yio_start	Dyniob.h	/^int Yio_start (char *nmmod, char *oaxis, int pdt, char *filename)				$/;"	f
+Yio_start_file	Dyniob.h	/^int Yio_start_file (char *filename)$/;"	f
+Yiodi	Dynamo.h	/^int			 Yiodi, Yiodj, Yiodk;		\/* decalage a appliquer sur les coordonnes d'un espace exterieur a charger *\/		$/;"	v
+Yiodj	Dynamo.h	/^int			 Yiodi, Yiodj, Yiodk;		\/* decalage a appliquer sur les coordonnes d'un espace exterieur a charger *\/		$/;"	v
+Yiodk	Dynamo.h	/^int			 Yiodi, Yiodj, Yiodk;		\/* decalage a appliquer sur les coordonnes d'un espace exterieur a charger *\/		$/;"	v
+Yiofp	Dynamo.h	/^FILE		 *Yiofp;								\/* file pointeur pour les fonctions d'entree\/sortie *\/$/;"	v
+Yiopera	Dynamo.cpp	/^int Yiopera(char *nmopera)$/;"	f
+Yioperaimod	Dynamo.cpp	/^int Yioperaimod(int imod) \/\/!?$/;"	f
+Yiorwf	Dyniob.h	/^template<class TypReal>void Yiorwf (char *nmmod, int w4, int w1, int w2, int w3, int wt, TypReal *valout, TypReal valin)$/;"	f
+YioszReal	Dynamo.h	/^int			 YioszReal;             \/* taille d'un reel pour des valeurs (binaire?) a loader (en provenance de l'exterieur *\/$/;"	v
+Yisa_typetraj	Dynamo.cpp	/^int Yisa_typetraj(char typetraj)$/;"	f
+Yisdefval	Dynamo.cpp	/^int Yisdefval(char *name)$/;"	f
+Yispace	Dynamo.cpp	/^int Yispace(char *nmspace)$/;"	f
+Yispaceimod	Dynamo.cpp	/^int Yispaceimod(int imod) \/\/!?$/;"	f
+Yitraj	Dynamo.cpp	/^int Yitraj(char *nmtraj)$/;"	f
+Yitrajimod	Dynamo.cpp	/^int Yitrajimod(int imod)$/;"	f
+Yj	Dynamo.h	/^int			 Yi, Yj, Yk;						\/* indice de parcourt de l'espace gabarit *\/$/;"	v
+Yk	Dynamo.h	/^int			 Yi, Yj, Yk;						\/* indice de parcourt de l'espace gabarit *\/$/;"	v
+Ylinward	Dynamo.cpp	/^void Ylinward(int bidon) \/\/int bidon : pour rester compatible en attendant que tout soit termine !!!$/;"	f
+Ylinward_flopobs	Dynamo.cpp	/^void Ylinward_flopobs(int bidon) \/\/int bidon : pour rester compatible en attendant que tout soit termine !!!$/;"	f
+Ylistobs	Dyniob.h	/^void	Ylistobs(int itraj) \/\/si itraj vaut YNBTRAJ alors toutes les trajectoires$/;"	f
+Ylmocop	Dynamo.cpp	/^void Ylmocop()$/;"	f
+Ylmod	Dynamo.cpp	/^void Ylmod(int argc, char *argv[])$/;"	f
+Ylnet	Dynamo.cpp	/^void Ylnet ()$/;"	f
+Yload_inst	Dynamo.cpp	/^int Yload_inst (FILE *fpinst, char *nmfile, int *nbenrlus)$/;"	f
+Ylopera	Dynamo.cpp	/^void Ylopera()$/;"	f
+Ylspace	Dynamo.cpp	/^void Ylspace()$/;"	f
+Yltraj	Dynamo.cpp	/^void Yltraj()$/;"	f
+Ylval	Dynamo.cpp	/^void Ylval()$/;"	f
+Ymax	Dynamo.h	/^template<class TypVala, class TypValb> TypVala Ymax (TypVala a, TypValb b)$/;"	f
+Ymaxko	Dynamo.h	/^int			 Ynbko, Ymaxko;					\/* nombre de ko et le max autorise *\/$/;"	v
+Ymin	Dynamo.h	/^template<class TypVala, class TypValb>inline TypVala Ymin (TypVala a, TypValb b)$/;"	f
+Ymxmat	Dynamo.cpp	/^template<class TypValA, class TypValB, class TypValX>void Ymxmat (int la, int cl, int cb, TypValA MatA[], TypValB MatB[], TypValX MatX[])$/;"	f
+Yn_lin_dmax	Dynnet.h	/^double Yn_lin_dmax = 1 ;$/;"	v
+Yn_lin_dmin	Dynnet.h	/^double Yn_lin_dmin = 1 ;$/;"	v
+Yn_lin_th	Dynnet.h	/^double Yn_lin_th   = 1 ;$/;"	v
+Yn_sig_dmin	Dynnet.h	/^double Yn_sig_dmin   = 0 ;$/;"	v
+Yn_sig_mx	Dynnet.h	/^double Yn_sig_mx 		 = ((double)2)\/((double)3); \/\/mx1 ;$/;"	v
+Yn_sig_offset	Dynnet.h	/^double Yn_sig_offset = 0 ;$/;"	v
+Yn_sig_scale	Dynnet.h	/^double Yn_sig_scale  = 1\/ tanh (((double) 2) \/ ((double) 3)); \/* scale1 ; *\/$/;"	v
+Ynbko	Dynamo.h	/^int			 Ynbko, Ymaxko;					\/* nombre de ko et le max autorise *\/$/;"	v
+Ynet_backward	Dynnet.h	/^void Ynet_backward (const int inet, Activation activ,$/;"	f
+Ynet_bward1	Dynnet.h	/^void Ynet_bward1(const int inet, YREAL grad_sortie[], const YREAL etat_entree[], YREAL grad_entree[])$/;"	f
+Ynet_bward2	Dynnet.h	/^void Ynet_bward2(const int inet, YREAL grad_sortie[])$/;"	f
+Ynet_displin	Dynnet.h	/^void Ynet_displin ()$/;"	f
+Ynet_dispsig	Dynnet.h	/^void Ynet_dispsig ()$/;"	f
+Ynet_dlin	Dynnet.h	/^double Ynet_dlin (const double x)$/;"	f
+Ynet_dsig	Dynnet.h	/^double Ynet_dsig (const double x)$/;"	f
+Ynet_flinward	Dynnet.h	/^void Ynet_flinward (const int inet, Activation activ,$/;"	f
+Ynet_flward1	Dynnet.h	/^void Ynet_flward1(const int inet, YREAL etat_sortie[], YREAL grad_sortie[],$/;"	f
+Ynet_flward2	Dynnet.h	/^void Ynet_flward2(const int inet, YREAL etat_sortie[], YREAL grad_sortie[])$/;"	f
+Ynet_forward	Dynnet.h	/^void Ynet_forward (const int inet, Activation activ,$/;"	f
+Ynet_fward1	Dynnet.h	/^void Ynet_fward1(const int inet, const YREAL etat_entree[],YREAL etat_sortie[])$/;"	f
+Ynet_fward2	Dynnet.h	/^void Ynet_fward2(const int inet, YREAL etat_sortie[])$/;"	f
+Ynet_lin	Dynnet.h	/^double Ynet_lin (const double x)$/;"	f
+Ynet_load	Dynnet.h	/^int Ynet_load (int inet, char *fichier)$/;"	f
+Ynet_max_tab	Dynnet.h	/^int Ynet_max_tab (const double poids[], const int nbconnex)$/;"	f
+Ynet_setplin	Dynnet.h	/^void Ynet_setplin (double dmin, double dmax, double th)$/;"	f
+Ynet_setpsig	Dynnet.h	/^void Ynet_setpsig (double mx, double dmin, double scale, double offset)$/;"	f
+Ynet_sig	Dynnet.h	/^double Ynet_sig (const double x)$/;"	f
+Yobs_disp	Dyniob.h	/^void Yobs_disp(struct Yst_obs *aobs)$/;"	f
+Yobs_insert	Dyniob.h	/^int Yobs_insert(struct Yst_obs *aobs)$/;"	f
+Yobs_insert_data	Dyniob.h	/^int Yobs_insert_data(char *nmmod, int sortie, int iaxe, int jaxe, int kaxe,$/;"	f
+Yobs_reverse_time_list_traj	Dyniob.h	/^void Yobs_reverse_time_list_traj(struct Yst_nodo *Rlist)$/;"	f
+Yobs_reverse_time_lists	Dyniob.h	/^int Yobs_reverse_time_lists()$/;"	f
+Yobs_unload	Dyniob.h	/^void Yobs_unload(char *nmmod, char *nsmod)$/;"	f
+Youtoobs	Dyniob.h	/^int Youtoobs(YioKind yiokind, int cdesc, char *cdes[]) \/* state to obs or ebx *\/$/;"	f
+Ypdt2pdt	../src/Yao8.c	/^int Ypdt2pdt (int wxtraj, int topy, int wytraj)$/;"	f
+Ypdt2pdt	Dynamo.cpp	/^int Ypdt2pdt (int wxtraj, int topy, int wytraj)$/;"	f
+Ypr_tabr	Dynamo.h	/^template<class TypReal>void Ypr_tabr (char *str, TypReal TabReal[], int nbelt, char *sep)$/;"	f
+Yprintobs	Dyniob.h	/^void	Yprintobs(int indic, char *nmmod, int nout, int iaxe, int jaxe, int kaxe,$/;"	f
+Yprosca	Dynamo.h	/^template<class TypReel>double Yprosca (TypReel a[], TypReel b[], int sz)$/;"	f
+Ypzedi	Dynamo.h	/^double	 Ypzedi;							  \/* un parametre de zero informatique *\/$/;"	v
+Yrecup_cde	Dynamo.cpp	/^int Yrecup_cde (int *cdesc, char *cdeline, char *cdes[])$/;"	f
+Yrecurlev	Dynamo.cpp	/^int   Yrecurlev=0; 					  \/* niveau d'appel recursif de load_inst *\/$/;"	v
+Yrovobs	Dyniob.h	/^void Yrovobs(struct Yst_nodo *traj_Robs,$/;"	f
+Yrovobs1	Dyniob.h	/^void Yrovobs1(void(*fct)(int i1, char *str, int i2, int i3, int i4, int i5, int i6, int i7, YREAL *r1, YREAL *r2),$/;"	f
+Yrovobs2	Dyniob.h	/^void Yrovobs2(void(*fct)(int i1, char *str, int i2, int i3, int i4, int i5, int i6, int i7, YREAL *r1, YREAL *r2),$/;"	f
+Yrovobs3	Dyniob.h	/^void Yrovobs3(void(*fct)(int i1, char *str, int i2, int i3, int i4, int i5, int i6, int i7, YREAL *r1, YREAL *r2),$/;"	f
+Yrovobs_TR	Dyniob.h	/^void Yrovobs_TR(struct Yst_nodo *traj_TRobs,$/;"	f
+Yrun	Dynamo.cpp	/^void Yrun(long Yit)$/;"	f
+Ysampleof	Dynamo.cpp	/^int Ysampleof(char *modP, double Pinf, double Psup, double dP,$/;"	f
+YsetPaxe	Dynamo.cpp	/^int YsetPaxe(int dim, char *oaxis, int  axe1, int  axe2, int axe3,$/;"	f
+Yset_modeltime	Dynamo.cpp	/^int Yset_modeltime (int time)  \/\/PLM, je ne traite que le repositionnement au debut du modele !!! (ARAR)$/;"	f
+Yset_qteaebx	Dynamo.cpp	/^void Yset_qteaebx() \/\/calcul de qtea sur la partie ebauche seulement$/;"	f
+Ysetstate_generic	Dynamo.h	/^template <class TypVal, class TypClass> int Ysetstate_generic (char *nmmod, TypVal val, TypClass *pc[])$/;"	f
+Ysetstatet_generic	Dynamo.h	/^template <class TypVal, class TypClass> int Ysetstatet_generic (char *nmmod, TypVal val, TypClass *pc[])$/;"	f
+Ysetting	Dynamo.cpp	/^void Ysetting(char *codop)$/;"	f
+Ysignal	Dynamo.cpp	/^void Ysignal(int isig)$/;"	f
+Yst_defval	Dynamo.h	/^struct Yst_defval {$/;"	s
+Yst_fobs	Dyniob.h	/^struct   Yst_fobs  {$/;"	s
+Yst_modul	Dynamo.h	/^struct Yst_modul {$/;"	s
+Yst_netward	Dynamo.h	/^struct Yst_netward {$/;"	s
+Yst_nodo	Dynamo.h	/^struct   Yst_nodo  {$/;"	s
+Yst_opera	Dynamo.h	/^struct Yst_opera {$/;"	s
+Yst_space	Dynamo.h	/^struct Yst_space {$/;"	s
+Yst_traj	Dynamo.h	/^struct Yst_traj {$/;"	s
+Ystat_denorm1	Dynamo.h	/^template<class TypVal, class TypRes>void Ystat_denorm1 (TypVal TabVal[], int nbelt, TypRes moy, TypRes sig)$/;"	f
+Ystat_moy	Dynamo.h	/^template<class TypVal, class TypRes>void Ystat_moy (TypVal TabVal[], int nbelt, TypRes *moy)$/;"	f
+Ystat_mv	Dynamo.h	/^template<class TypVal, class TypRes>void Ystat_mv (TypVal TabVal[], int nbelt, TypRes *moy, TypRes *var)$/;"	f
+Ystat_norm1	Dynamo.h	/^template<class TypVal, class TypRes>void Ystat_norm1 (TypVal TabVal[], int nbelt, TypRes moy, TypRes sig)$/;"	f
+Ystraj	Dynamo.cpp	/^void Ystraj()$/;"	f
+Ysysdbg	Dynamo.h	/^short		 Ysysdbg;	\/* reserved for system supervisor *\/$/;"	v
+Yszint	Dynamo.h	/^int 		 Yszint, Yszreal; 			\/* tailles d'un int et d'un reel (initialises au debut de Dynamo.cpp *\/$/;"	v
+Yszreal	Dynamo.h	/^int 		 Yszint, Yszreal; 			\/* tailles d'un int et d'un reel (initialises au debut de Dynamo.cpp *\/$/;"	v
+Yt	Dynamo.h	255;"	d
+Ytestad	Dyntst.h	/^void Ytestad(double pdx)$/;"	f
+Ytestad_mod	Dyntst.h	/^void Ytestad_mod(double pdx, double errelmax, int maxko, double pzedi)$/;"	f
+Ytestad_module	Dynamo.h	/^short		 Ytestad_module;				\/* flag de test de l'adjoint par module *\/$/;"	v
+Ytestdf	Dyntst.h	/^int Ytestdf(int argc, char *argv[])$/;"	f
+Ytesterrad_mod	Dynamo.cpp	/^int Ytesterrad_mod(char *nmmod, double YLTRes, double YAdRes)$/;"	f
+Ytestlt	Dyntst.h	/^void Ytestlt(double pdx, double alpha, double fdec, int nbloop, int modop, int syclop)$/;"	f
+Ytestof	Dyntst.h	/^void Ytestof(double pdx, double alpha, double fdec, int nbloop, int modop, int syclop)$/;"	f
+Ytop0	Dynamo.h	/^long		 Ytop0;									\/* un top global pour decompter le temps *\/$/;"	v
+Ytps	Dynamo.h	/^int      Ytps;									\/* variable pour la gestion du temps entre trajectoire *\/$/;"	v
+Ytrobs	Dynamo.h	/^void Ytrobs (int indic, char *nmmod, int nout, int iaxe, int jaxe, int kaxe, int pdt, double *vobs, double *qtea)$/;"	f
+Ytrupdt	Dyniob.h	/^int    Ytrupdt;         \/* a cause des ebauches qui sont stocke dans l'arbo des obs$/;"	v
+Ytttt_pdt	Dynamo.cpp	/^int Ytttt_pdt (int wxtraj, int topy, int wytraj)$/;"	f
+Yupdcurtime	Dynamo.cpp	/^int Yupdcurtime(int itraj)$/;"	f
+Yupdstoptime	Dynamo.cpp	/^int Yupdstoptime(int itraj)$/;"	f
+Yvsmat	Dynamo.cpp	/^template<class TypReel> void Yvsmat (int lig, int col, int max_col, TypReel vout[], TypReel Mat[], TypReel vin[])$/;"	f
+Yvsmatt	Dynamo.cpp	/^template<class TypReel> void Yvsmatt (int lig, int col, int max_col, TypReel vin[], TypReel Mat[], TypReel vout[])$/;"	f
+activ	Dynamo.h	/^	Activation activ;$/;"	m	struct:Yst_netward
+autonet	../src/Yao8.c	/^	char		autonet[LG_MAX_STRING + 1];								\/* nom du reseau de neurone associe au module courant *\/$/;"	v
+autonet_name	../src/Yao8.c	/^	char		autonet_name[LG_MAX_STRING + 1];$/;"	m	struct:st_modul	file:
+axi	../src/Yao8.c	/^	int			axi;$/;"	m	struct:st_modul	file:
+axi	../src/Yao8.c	/^	int			axi;$/;"	m	struct:st_opera	file:
+axi	../src/Yao8.c	/^	int			axi;$/;"	m	struct:st_space	file:
+axi	Dynamo.h	/^	int			axi;$/;"	m	struct:Yst_modul
+axi	Dynamo.h	/^	int			axi;$/;"	m	struct:Yst_opera
+axi	Dynamo.h	/^	int			axi;$/;"	m	struct:Yst_space
+axj	../src/Yao8.c	/^	int			axj;$/;"	m	struct:st_modul	file:
+axj	../src/Yao8.c	/^	int			axj;$/;"	m	struct:st_opera	file:
+axj	../src/Yao8.c	/^	int			axj;$/;"	m	struct:st_space	file:
+axj	Dynamo.h	/^	int			axj;$/;"	m	struct:Yst_modul
+axj	Dynamo.h	/^	int			axj;$/;"	m	struct:Yst_opera
+axj	Dynamo.h	/^	int			axj;$/;"	m	struct:Yst_space
+axk	../src/Yao8.c	/^	int			axk;$/;"	m	struct:st_modul	file:
+axk	../src/Yao8.c	/^	int			axk;$/;"	m	struct:st_opera	file:
+axk	../src/Yao8.c	/^	int			axk;$/;"	m	struct:st_space	file:
+axk	Dynamo.h	/^	int			axk;$/;"	m	struct:Yst_modul
+axk	Dynamo.h	/^	int			axk;$/;"	m	struct:Yst_opera
+axk	Dynamo.h	/^	int			axk;$/;"	m	struct:Yst_space
+bakorder	../src/Yao8.c	/^void bakorder()$/;"	f
+bcoef	../src/Yao8.c	/^	double	bcoef;$/;"	m	struct:st_modul	file:
+bcoef	Dynamo.h	/^	double	bcoef;$/;"	m	struct:Yst_modul
+blockorder	../src/Yao8.c	/^int blockorder()$/;"	f
+buffer	../src/Yao8.c	/^	char		buffer[BUFSIZE + 1];			\/* utilise en particulier pour le formatage *\/$/;"	v
+bward	../src/Yao8.c	/^	int     (*bward)();$/;"	m	struct:st_traj	file:
+bward	Dynamo.h	/^	int     (*bward)(int nbt);$/;"	m	struct:Yst_traj
+caxa	../src/Yao8.c	/^	char    caxa;     							\/* add for clone *\/$/;"	m	struct:st_modul	file:
+caxb	../src/Yao8.c	/^	char    caxb;     							\/* add for clone *\/$/;"	m	struct:st_modul	file:
+caxc	../src/Yao8.c	/^	char    caxc;     							\/* add for clone *\/$/;"	m	struct:st_modul	file:
+cdeline	../src/Yao8.c	/^	char		cdeline[BUFSIZE + 1];		\/* ligne de commande lue *\/$/;"	v
+cdeline	Dynamo.cpp	/^char	cdeline[BUFSIZE + 1];		\/* ligne de commande lue *\/$/;"	v
+cdes	../src/Yao8.c	/^	char    *cdes[NB_MAX_ARG_CDE];	\/* tableau des arguments de la commande *\/$/;"	v
+cdes	Dynamo.cpp	/^char  *cdes[NB_MAX_ARG_CDE];	\/* tableau des arguments de la commande *\/$/;"	v
+cdesc	../src/Yao8.c	/^	int     cdesc;									\/* nombre d'argument de la commande *\/$/;"	v
+cdesc	Dynamo.cpp	/^int   cdesc;									\/* nombre d'argument de la commande *\/$/;"	v
+clonlev	../src/Yao8.c	/^	int			id_cloned, clonlev; 			\/*indice du module cloned, niveau de clonage: 1=>que module et certains attributs, 2=> module & tous les attributs*\/$/;"	v
+create_yao_moduls	../src/Yao8.c	/^void create_yao_moduls()$/;"	f
+ctrord	../src/Yao8.c	/^	int     ctrord;                  \/* add with clone*\/$/;"	m	struct:st_modul	file:
+ctrord	../src/Yao8.c	/^	int     ctrord;$/;"	m	struct:st_space	file:
+ctrord	../src/Yao8.c	/^	int     ctrord;$/;"	m	struct:st_traj	file:
+ctrord	../src/Yao8.c	/^  int     ctrord;$/;"	m	struct:st_opera	file:
+ctrord	Dynamo.h	/^	int     ctrord;$/;"	m	struct:Yst_modul
+ctrordin	../src/Yao8.c	/^	int     ctrordin;$/;"	m	struct:st_space	file:
+ctrordin	../src/Yao8.c	/^	int     ctrordin;$/;"	m	struct:st_traj	file:
+ctrordin	../src/Yao8.c	/^  int     ctrordin;$/;"	m	struct:st_opera	file:
+curtime	../src/Yao8.c	/^	float		curtime;$/;"	m	struct:st_traj	file:
+curtime	Dynamo.h	/^	float		curtime;$/;"	m	struct:Yst_traj
+deb_target	../src/Yao8.c	/^	int			deb_target;$/;"	m	struct:st_modul	file:
+deb_target	../src/Yao8.c	/^	int			nbp_target, deb_target, end_target;	\/* pour gerer le controle d'un parametre sur une trajectoire *\/$/;"	v
+deb_target	Dynamo.h	/^	int			deb_target;$/;"	m	struct:Yst_modul
+deflagaxe	../src/Yao8.c	/^void deflagaxe(int w1, int *dimaxe)$/;"	f
+defvalsub	../src/Yao8.c	/^int defvalsub (char *line)$/;"	f
+dfward	Dynamo.h	/^	int     (*dfward)(int modop, char *nmmod, int All, int KeKo, int koleft, float pdx, float ptol, int yi, int yj, int yk);$/;"	m	struct:Yst_traj
+dim	../src/Yao8.c	/^	int			dim;$/;"	m	struct:st_modul	file:
+dim	Dynamo.h	/^	int			dim;$/;"	m	struct:Yst_modul
+disp_connect	../src/Yao8.c	/^void disp_connect (struct st_connect *connect)$/;"	f
+disp_ct_in	../src/Yao8.c	/^void disp_ct_in()$/;"	f
+disp_ct_out	../src/Yao8.c	/^void disp_ct_out()$/;"	f
+disp_defval	../src/Yao8.c	/^void disp_defval ()$/;"	f
+disp_flagop	../src/Yao8.c	/^void disp_flagop()$/;"	f
+disp_help	../src/Yao8.c	/^void disp_help()$/;"	f
+disp_modul	../src/Yao8.c	/^void disp_modul()$/;"	f
+disp_netward	../src/Yao8.c	/^void disp_netward ()$/;"	f
+disp_opera	../src/Yao8.c	/^void disp_opera()$/;"	f
+disp_space	../src/Yao8.c	/^void disp_space ()$/;"	f
+disp_traj	../src/Yao8.c	/^void disp_traj ()$/;"	f
+dtime	../src/Yao8.c	/^	float   dtime;					\/\/ delta t$/;"	m	struct:st_traj	file:
+dtime	Dynamo.h	/^	float   dtime;			   \/\/ delta t$/;"	m	struct:Yst_traj
+end_target	../src/Yao8.c	/^	int			end_target;$/;"	m	struct:st_modul	file:
+end_target	../src/Yao8.c	/^	int			nbp_target, deb_target, end_target;	\/* pour gerer le controle d'un parametre sur une trajectoire *\/$/;"	v
+end_target	Dynamo.h	/^	int			end_target;$/;"	m	struct:Yst_modul
+etats	Dynnet.h	/^double etats[YNMAXCELL] ;$/;"	v
+fY1h	../src/Yao8.c	/^	char    fY1h[LG_MAX_STRING + 1];	\/* nom du 1er fichier.h out  *\/$/;"	v
+fY2h	../src/Yao8.c	/^	char		fY2h[LG_MAX_STRING + 1];	\/* nom du 2eme fichier.h out *\/$/;"	v
+fY3l	../src/Yao8.c	/^	char		fY3l[LG_MAX_STRING + 1];	\/* nom du fichier qui contiendra la liste des modules a deriver *\/$/;"	v
+feedward	../src/Yao8.c	/^void feedward (char *tomodul, char ibad)$/;"	f
+fils	../src/Yao8.c	/^	struct	st_token	*fils;$/;"	m	struct:st_token	typeref:struct:st_token::st_token	file:
+fils	Dynamo.h	/^	struct Yst_nodo *fils;$/;"	m	struct:Yst_nodo	typeref:struct:Yst_nodo::Yst_nodo
+flag_adf	../src/Yao8.c	/^	int 		flag_adf;$/;"	m	struct:st_modul	file:
+flag_adf	../src/Yao8.c	/^	int     flag_adf;																	\/* flag pour l'automatic differentiation des modules *\/$/;"	v
+flag_array	../src/Yao8.c	/^	int			flag_array;$/;"	m	struct:st_modul	file:
+flag_autonet	../src/Yao8.c	/^	int			flag_autonet;$/;"	m	struct:st_modul	file:
+flag_cout	../src/Yao8.c	/^	int			flag_cout;$/;"	m	struct:st_modul	file:
+flag_ctio	../src/Yao8.c	/^	short   flag_ctio;	\/\/x$/;"	m	struct:st_connect	file:
+flag_hidjac	../src/Yao8.c	/^	int 		flag_hidjac;$/;"	m	struct:st_modul	file:
+flag_inter	../src/Yao8.c	/^	int			flag_inter;$/;"	m	struct:st_modul	file:
+flag_netward	../src/Yao8.c	/^	int			flag_netward;$/;"	m	struct:st_modul	file:
+flag_noward	../src/Yao8.c	/^	int			flag_noward;$/;"	m	struct:st_modul	file:
+flag_spec	../src/Yao8.c	/^	int			flag_spec;$/;"	m	struct:st_modul	file:
+flag_target	../src/Yao8.c	/^	int			flag_target;$/;"	m	struct:st_modul	file:
+flagaxe	../src/Yao8.c	/^void flagaxe(int w1, int *dimaxe)$/;"	f
+fpY01	../src/Yao8.c	/^	FILE    *fpY01=NULL;              \/* file pointer pour le fichier des objets externes a integrer dans l'appli yao*\/$/;"	v
+fpY1h	../src/Yao8.c	/^	FILE    *fpY1h, *fpY3l, *fpY2h;		\/* file pointers des fichiers en sortie *\/$/;"	v
+fpY2h	../src/Yao8.c	/^	FILE    *fpY1h, *fpY3l, *fpY2h;		\/* file pointers des fichiers en sortie *\/$/;"	v
+fpY3l	../src/Yao8.c	/^	FILE    *fpY1h, *fpY3l, *fpY2h;		\/* file pointers des fichiers en sortie *\/$/;"	v
+fpdesc	../src/Yao8.c	/^	FILE    *fpdesc;								\/* file pointer du fichier de description *\/$/;"	v
+frere	../src/Yao8.c	/^	struct	st_token	*frere;$/;"	m	struct:st_token	typeref:struct:st_token::st_token	file:
+frere	Dynamo.h	/^	struct Yst_nodo *frere;$/;"	m	struct:Yst_nodo	typeref:struct:Yst_nodo::Yst_nodo
+frere	Dyniob.h	/^	struct Yst_fobs *frere;$/;"	m	struct:Yst_fobs	typeref:struct:Yst_fobs::Yst_fobs
+fward	../src/Yao8.c	/^	int     (*fward)();$/;"	m	struct:st_traj	file:
+fward	Dynamo.h	/^	int     (*fward)(int nbt);$/;"	m	struct:Yst_traj
+gendfward_all	../src/Yao8.c	/^int gendfward_all()$/;"	f
+gendfward_maille	../src/Yao8.c	/^int gendfward_maille()$/;"	f
+gendfward_mod	../src/Yao8.c	/^int gendfward_mod (char *nmmod, int dimaxe, char a, char b)$/;"	f
+gendfward_opera	../src/Yao8.c	/^int gendfward_opera()$/;"	f
+gendfward_opera_maille	../src/Yao8.c	/^int gendfward_opera_maille()$/;"	f
+gendfward_order_mod	../src/Yao8.c	/^int gendfward_order_mod (char *nmmod, int dimaxe, char a, char b)$/;"	f
+genorder	../src/Yao8.c	/^int genorder(char *sensward) \/\/depuis multi, cette fonction est dediee au cas (a):$/;"	f
+genorder_multi	../src/Yao8.c	/^int genorder_multi (char *sensward) \/\/multi : phase 2: block traj qui enchaine des espaces$/;"	f
+genward_operator	../src/Yao8.c	/^int genward_operator()$/;"	f
+go_modul	../src/Yao8.c	/^	char		go_modul[LG_MAX_STRING + 1];$/;"	m	struct:st_connect	file:
+gradients	Dynnet.h	/^double gradients[YNMAXCELL];$/;"	v
+i	../src/Yao8.c	/^	int			i, j, k;									\/* du code a generer en sortie *\/$/;"	v
+id_cloned	../src/Yao8.c	/^	int			id_cloned, clonlev; 			\/*indice du module cloned, niveau de clonage: 1=>que module et certains attributs, 2=> module & tous les attributs*\/$/;"	v
+id_cloned	../src/Yao8.c	/^	int     id_cloned;               \/* add for clone *\/$/;"	m	struct:st_modul	file:
+id_covt	../src/Yao8.c	/^	int     id_covt;$/;"	m	struct:st_modul	file:
+id_covt	../src/Yao8.c	/^  int     id_covt;                            \/* indice d'un modul de covariance associed ... *\/$/;"	v
+id_objcal	../src/Yao8.c	/^	int     id_objcal;                          \/* pointeur sur TObjCal *\/$/;"	v
+id_opera	../src/Yao8.c	/^	int			id_opera;														\/* indice de l'operateur *\/$/;"	v
+id_space	../src/Yao8.c	/^	int			id_space;														\/* indice de l'espace *\/$/;"	v
+id_traj	../src/Yao8.c	/^	int			id_traj;														\/* indice de la trajectoire *\/$/;"	v
+iind	Dynamo.h	/^	int		 iind; \/* indice pour l'indicateur t, m, s, i, j *\/$/;"	m	struct:Yst_nodo
+iind	Dyniob.h	/^	int		 iind; \/* indice pour l'indicateur i, j ou k selon la dim ! *\/$/;"	m	struct:Yst_fobs
+in_array	../src/Yao8.c	/^  int     is_noward,  is_inter, is_tempo, is_cout, is_target, is_spec, is_netward, is_autonet, in_array, is_hidjac; \/*pour modul ...*\/$/;"	v
+ind	../src/Yao8.c	/^	int			ind;$/;"	m	struct:st_token	file:
+input	Dynnet.h	/^double input[YNMAXCELL] ;$/;"	v
+interprete_cde	../src/Yao8.c	/^int interprete_cde(int cdesc, char *cdes[])$/;"	f
+invfilsroot	../src/Yao8.c	/^void invfilsroot()$/;"	f
+invlistok	../src/Yao8.c	/^void invlistok (struct st_token *atoken)$/;"	f
+invtabtok	../src/Yao8.c	/^void invtabtok (struct st_token *atoken, int *w1)$/;"	f
+invtokgr	../src/Yao8.c	/^void invtokgr (struct st_token *atoken)$/;"	f
+iordtok	../src/Yao8.c	/^	int			iordtok = 0;							\/* indice des tokens pour le tableau TOrder *\/$/;"	v
+isSpace	../src/Yao8.c	/^int isSpace(char *name)$/;"	f
+is_autonet	../src/Yao8.c	/^  int     is_noward,  is_inter, is_tempo, is_cout, is_target, is_spec, is_netward, is_autonet, in_array, is_hidjac; \/*pour modul ...*\/$/;"	v
+is_cout	../src/Yao8.c	/^  int     is_noward,  is_inter, is_tempo, is_cout, is_target, is_spec, is_netward, is_autonet, in_array, is_hidjac; \/*pour modul ...*\/$/;"	v
+is_cout	Dynamo.h	/^	int			is_cout;$/;"	m	struct:Yst_modul
+is_hidjac	../src/Yao8.c	/^  int     is_noward,  is_inter, is_tempo, is_cout, is_target, is_spec, is_netward, is_autonet, in_array, is_hidjac; \/*pour modul ...*\/$/;"	v
+is_insert_fct	../src/Yao8.c	/^	int			is_insert_fct = 0;$/;"	v
+is_inter	../src/Yao8.c	/^  int     is_noward,  is_inter, is_tempo, is_cout, is_target, is_spec, is_netward, is_autonet, in_array, is_hidjac; \/*pour modul ...*\/$/;"	v
+is_netward	../src/Yao8.c	/^  int     is_noward,  is_inter, is_tempo, is_cout, is_target, is_spec, is_netward, is_autonet, in_array, is_hidjac; \/*pour modul ...*\/$/;"	v
+is_noward	../src/Yao8.c	/^  int     is_noward,  is_inter, is_tempo, is_cout, is_target, is_spec, is_netward, is_autonet, in_array, is_hidjac; \/*pour modul ...*\/$/;"	v
+is_spec	../src/Yao8.c	/^  int     is_noward,  is_inter, is_tempo, is_cout, is_target, is_spec, is_netward, is_autonet, in_array, is_hidjac; \/*pour modul ...*\/$/;"	v
+is_target	../src/Yao8.c	/^  int     is_noward,  is_inter, is_tempo, is_cout, is_target, is_spec, is_netward, is_autonet, in_array, is_hidjac; \/*pour modul ...*\/$/;"	v
+is_target	Dynamo.h	/^	int			is_target;$/;"	m	struct:Yst_modul
+is_tempo	../src/Yao8.c	/^  int     is_noward,  is_inter, is_tempo, is_cout, is_target, is_spec, is_netward, is_autonet, in_array, is_hidjac; \/*pour modul ...*\/$/;"	v
+isa_modul	../src/Yao8.c	/^int isa_modul(char *modul)$/;"	f
+isa_name	../src/Yao8.c	/^int isa_name(char *name)$/;"	f
+isa_netward	../src/Yao8.c	/^int isa_netward(char *name)$/;"	f
+isa_opera	../src/Yao8.c	/^int isa_opera(char *name)$/;"	f
+isa_space	../src/Yao8.c	/^int isa_space(char *name)$/;"	f
+isa_traj	../src/Yao8.c	/^int isa_traj(char *name)$/;"	f
+isactiv	Dynamo.h	/^	short   isactiv;$/;"	m	struct:Yst_opera
+isactiv	Dynamo.h	/^	short   isactiv;$/;"	m	struct:Yst_traj
+isdefval	../src/Yao8.c	/^int isdefval(char *name)$/;"	f
+ismodul	../src/Yao8.c	/^int ismodul(char *name)$/;"	f
+isnetward	../src/Yao8.c	/^int isnetward(char *name)$/;"	f
+isobjcal	../src/Yao8.c	/^int isobjcal(char *name)$/;"	f
+isopera	../src/Yao8.c	/^int isopera(char *name)$/;"	f
+istraj	../src/Yao8.c	/^int istraj(char *name)$/;"	f
+istrajimod	../src/Yao8.c	/^int istrajimod(int imod)$/;"	f
+j	../src/Yao8.c	/^	int			i, j, k;									\/* du code a generer en sortie *\/$/;"	v
+k	../src/Yao8.c	/^	int			i, j, k;									\/* du code a generer en sortie *\/$/;"	v
+lirtokgr	../src/Yao8.c	/^void lirtokgr (struct st_token *atoken)$/;"	f
+lward	../src/Yao8.c	/^	int     (*lward)();$/;"	m	struct:st_traj	file:
+lward	Dynamo.h	/^	int     (*lward)(int nbt);$/;"	m	struct:Yst_traj
+macro	../src/Yao8.c	/^	char		macro[LG_MAX_STRING + 1];$/;"	m	struct:st_defval	file:
+macro	Dynamo.h	/^	char		macro[STRSIZE80+1];$/;"	m	struct:Yst_defval
+main	../src/Yao8.c	/^int main(int argc, char *argv[])$/;"	f
+maxcell	../src/Yao8.c	/^	int 		maxcell;$/;"	m	struct:st_netward	file:
+maxcell	Dynamo.h	/^	int 		maxcell;$/;"	m	struct:Yst_netward
+modul	../src/Yao8.c	/^	char		modul[LG_MAX_STRING + 1];						\/* nom du module courant *\/$/;"	v
+modul_name	../src/Yao8.c	/^	char		modul_name[LG_MAX_STRING + 1];$/;"	m	struct:st_modul	file:
+name	../src/Yao8.c	/^	char		name[LG_MAX_STRING + 1];$/;"	m	struct:st_defval	file:
+name	../src/Yao8.c	/^	char		name[LG_MAX_STRING + 1];$/;"	m	struct:st_opera	file:
+name	../src/Yao8.c	/^	char		name[LG_MAX_STRING + 1];$/;"	m	struct:st_space	file:
+name	../src/Yao8.c	/^	char		name[LG_MAX_STRING + 1];$/;"	m	struct:st_traj	file:
+name	Dynamo.h	/^	char		name[STRSIZE80+1];$/;"	m	struct:Yst_opera
+name	Dynamo.h	/^	char		name[STRSIZE80+1];$/;"	m	struct:Yst_space
+name	Dynamo.h	/^	char		name[STRSIZE80+1];$/;"	m	struct:Yst_traj
+nbSteptime	../src/Yao8.c	/^	int			nbUptime, nbSteptime;$/;"	v
+nbUptime	../src/Yao8.c	/^	int			nbUptime, nbSteptime;$/;"	v
+nb_input	../src/Yao8.c	/^	int			nb_input;$/;"	m	struct:st_modul	file:
+nb_input	Dynamo.h	/^	int			nb_input;$/;"	m	struct:Yst_modul
+nb_stout	../src/Yao8.c	/^	int			nb_stout;$/;"	m	struct:st_modul	file:
+nb_stout	Dynamo.h	/^	int			nb_stout;$/;"	m	struct:Yst_modul
+nb_time	../src/Yao8.c	/^	int			nb_time;$/;"	m	struct:st_modul	file:
+nb_time	Dynamo.h	/^	int			nb_time;$/;"	m	struct:Yst_modul
+nbenrlus	../src/Yao8.c	/^	int			nbenrlus = 0;						\/* nbre de lignes du .d lues. gere par le main mais utilisable ailleurs *\/$/;"	v
+nbinput	../src/Yao8.c	/^	int			nbinput;$/;"	m	struct:st_netward	file:
+nbinput	Dynamo.h	/^	int			nbinput;$/;"	m	struct:Yst_netward
+nbm	../src/Yao8.c	/^	int			nbm;      							\/* add for clone *\/$/;"	m	struct:st_modul	file:
+nboutput	../src/Yao8.c	/^	int			nboutput;$/;"	m	struct:st_netward	file:
+nboutput	Dynamo.h	/^	int			nboutput;$/;"	m	struct:Yst_netward
+nbp_target	../src/Yao8.c	/^	int			nbp_target, deb_target, end_target;	\/* pour gerer le controle d'un parametre sur une trajectoire *\/$/;"	v
+nbpred	../src/Yao8.c	/^int nbpred(char *modname) \/* nombre de predecesseurs d'un module *\/$/;"	f
+nbsteptime	../src/Yao8.c	/^	int		  nbsteptime;$/;"	m	struct:st_traj	file:
+nbsteptime	Dynamo.h	/^	int		  nbsteptime;$/;"	m	struct:Yst_traj
+nbsucc	../src/Yao8.c	/^int nbsucc(char *modname)	\/* nombre de successeurs d'un module *\/$/;"	f
+nbuptime	../src/Yao8.c	/^	int		  nbuptime;$/;"	m	struct:st_traj	file:
+nbuptime	Dynamo.h	/^	int		  nbuptime;$/;"	m	struct:Yst_traj
+nbweight	../src/Yao8.c	/^	int 		nbweight;$/;"	m	struct:st_netward	file:
+nbweight	Dynamo.h	/^	int 		nbweight;$/;"	m	struct:Yst_netward
+netward_name	../src/Yao8.c	/^	char		netward_name[LG_MAX_STRING + 1];$/;"	m	struct:st_netward	file:
+ninput	../src/Yao8.c	/^	int			ninput;$/;"	m	struct:st_connect	file:
+niv	../src/Yao8.c	/^	int			niv;$/;"	m	struct:st_token	file:
+norkmod	../src/Yao8.c	/^void norkmod(int w1)$/;"	f
+nstout	../src/Yao8.c	/^	int			nstout;$/;"	m	struct:st_connect	file:
+o_DELTA	../src/Yao8.c	/^	short		o_DELTA    = 0;					\/* zone delta (pour LT; i.e si O_GRADTEST ou O_VARINCR) *\/$/;"	v
+o_DFWMOD	../src/Yao8.c	/^	short   o_DFWMOD   =-1;         \/* mode d'ecriture des derivations automatiques 0=>raz, 1=> >> *\/$/;"	v
+o_LINWARD	../src/Yao8.c	/^	short		o_LINWARD  = 0;					\/* fonction LT (i.e si O_GRADTEST ou O_VARINCR) *\/$/;"	v
+o_M2QN1	../src/Yao8.c	/^	short		o_M2QN1    = 0;         \/* parametre de l'option m1qn3 pour avoir m2qn1 *\/$/;"	v
+oblockname	../src/Yao8.c	/^	char    oblockname[LG_MAX_NAME+1];\/* nom d'un block d'order a generer *\/$/;"	v
+oblockphase	../src/Yao8.c	/^\/*?*\/	short   oblockphase = 0;          \/* gestion des differentes phases de la directive order :$/;"	v
+offtime	../src/Yao8.c	/^	float   offtime;$/;"	m	struct:st_traj	file:
+offtime	Dynamo.h	/^	float   offtime;$/;"	m	struct:Yst_traj
+parminward	../src/Yao8.c	/^	char 		parminward[BUFSIZE+1];										\/* passage de parametre en entree des fonctions ward *\/$/;"	v
+parstokrang	../src/Yao8.c	/^int	parstokrang (char *token, char axe, int Tinterv[], int szt)$/;"	f
+pcdeline	../src/Yao8.c	/^	char    *pcdeline;							\/* pointeur sur la ligne de commande lue *\/$/;"	v
+pcdeline	Dynamo.cpp	/^char  *pcdeline;							\/* pointeur sur la ligne de commande lue *\/$/;"	v
+pcoef	../src/Yao8.c	/^	double	pcoef;$/;"	m	struct:st_modul	file:
+pcoef	Dynamo.h	/^	double	pcoef;$/;"	m	struct:Yst_modul
+pere	../src/Yao8.c	/^	struct	st_token	*pere;$/;"	m	struct:st_token	typeref:struct:st_token::st_token	file:
+poids	Dynnet.h	11;"	d
+qtea	Dyniob.h	/^	YREAL  qtea; \/* quantite adjointe (dx*) *\/$/;"	m	struct:Yst_fobs
+recup_cde	../src/Yao8.c	/^int recup_cde (int *cdesc, char *cdeline, char *cdes[])$/;"	f
+reli	../src/Yao8.c	/^	short		reli;$/;"	m	struct:st_connect	file:
+relj	../src/Yao8.c	/^	short		relj;$/;"	m	struct:st_connect	file:
+relk	../src/Yao8.c	/^	short		relk;$/;"	m	struct:st_connect	file:
+relt	../src/Yao8.c	/^	short		relt;$/;"	m	struct:st_connect	file:
+scoef	../src/Yao8.c	/^	double	scoef;$/;"	m	struct:st_modul	file:
+scoef	Dynamo.h	/^	double	scoef;$/;"	m	struct:Yst_modul
+searchaxes	../src/Yao8.c	/^void searchaxes(char *a, char *b)$/;"	f
+sorder	../src/Yao8.c	/^	int			sorder = -1;							\/* semaphore pour la gestion de la cde order *\/$/;"	v
+space	../src/Yao8.c	/^	char		space[LG_MAX_STRING + 1];						\/* nom de l'espace courant *\/$/;"	v
+space_name	../src/Yao8.c	/^	char		space_name[LG_MAX_STRING + 1]; \/* ou opera !!! *\/$/;"	m	struct:st_modul	file:
+space_name	Dynamo.h	/^	char		space_name[STRSIZE80+1];$/;"	m	struct:Yst_modul
+st_connect	../src/Yao8.c	/^struct st_connect {$/;"	s	file:
+st_defval	../src/Yao8.c	/^struct st_defval {$/;"	s	file:
+st_modul	../src/Yao8.c	/^struct st_modul {$/;"	s	file:
+st_netward	../src/Yao8.c	/^struct st_netward {$/;"	s	file:
+st_opera	../src/Yao8.c	/^struct st_opera {$/;"	s	file:
+st_space	../src/Yao8.c	/^struct st_space {$/;"	s	file:
+st_token	../src/Yao8.c	/^struct st_token {$/;"	s	file:
+st_traj	../src/Yao8.c	/^struct st_traj {$/;"	s	file:
+stockcheck_clonol	../src/Yao8.c	/^int stockcheck_clonol()$/;"	f
+stockcheck_connect	../src/Yao8.c	/^int stockcheck_connect(struct st_connect *connect)$/;"	f
+stockcheck_defval	../src/Yao8.c	/^int stockcheck_defval(char *name, char *macro)$/;"	f
+stockcheck_modul	../src/Yao8.c	/^int stockcheck_modul()$/;"	f
+stockcheck_netward	../src/Yao8.c	/^int stockcheck_netward()$/;"	f
+stockcheck_opera	../src/Yao8.c	/^int stockcheck_opera()$/;"	f
+stockcheck_space	../src/Yao8.c	/^int stockcheck_space()$/;"	f
+stockcheck_traj	../src/Yao8.c	/^int stockcheck_traj()$/;"	f
+stoptime	../src/Yao8.c	/^	float		stoptime;       \/\/=Ybegintime + offtime + (dt*nbsteptime)   (nb: initialement, Ybegintime=0)$/;"	m	struct:st_traj	file:
+stoptime	Dynamo.h	/^	float		stoptime;      \/\/=Ybegintime + offtime + (dt*nbsteptime)   (nb: initialement, Ybegintime=0)$/;"	m	struct:Yst_traj
+stra1	../src/Yao8.c	/^	char    stra1[LG_MAX_NAME+1];   \/* add for clone *\/$/;"	m	struct:st_modul	file:
+stra2	../src/Yao8.c	/^	char    stra2[LG_MAX_NAME+1];   \/* add for clone *\/$/;"	m	struct:st_modul	file:
+stra3	../src/Yao8.c	/^	char    stra3[LG_MAX_NAME+1];   \/* add for clone *\/$/;"	m	struct:st_modul	file:
+to_modul	../src/Yao8.c	/^	char		to_modul[LG_MAX_STRING + 1];$/;"	m	struct:st_connect	file:
+tokoc	../src/Yao8.c	/^	char		tokoc[81];$/;"	m	struct:st_token	file:
+toptime	../src/Yao8.c	/^	int			toptime;				\/\/ temps unitaire$/;"	m	struct:st_traj	file:
+toptime	Dynamo.h	/^	int			toptime;       \/\/ temps unitaire$/;"	m	struct:Yst_traj
+traj	../src/Yao8.c	/^	char		traj[LG_MAX_STRING + 1];						\/* nom de la trajectoire courante *\/$/;"	v
+traj_name	../src/Yao8.c	/^	char		traj_name[LG_MAX_STRING + 1];$/;"	m	struct:st_opera	file:
+traj_name	../src/Yao8.c	/^	char		traj_name[LG_MAX_STRING + 1];$/;"	m	struct:st_space	file:
+traj_name	Dynamo.h	/^	char		traj_name[STRSIZE80+1];$/;"	m	struct:Yst_opera
+traj_name	Dynamo.h	/^	char		traj_name[STRSIZE80+1];$/;"	m	struct:Yst_space
+tweight	Dynamo.h	/^	double  *tweight;$/;"	m	struct:Yst_netward
+type	../src/Yao8.c	/^	char    type;$/;"	m	struct:st_opera	file:
+type	../src/Yao8.c	/^	char    type;$/;"	m	struct:st_space	file:
+type	../src/Yao8.c	/^	char    type;$/;"	m	struct:st_traj	file:
+type	Dynamo.h	/^	char    type;$/;"	m	struct:Yst_opera
+type	Dynamo.h	/^	char    type;$/;"	m	struct:Yst_space
+type	Dynamo.h	/^	char    type;$/;"	m	struct:Yst_traj
+typespace	../src/Yao8.c	/^	char		typespace;												  \/* type de l'espace {0..9 U a..R U A..R, s..Z U S..Z} *\/$/;"	v
+typetraj	../src/Yao8.c	/^	char		typetraj;														\/* type de la trajectoire courante {0..9 U a..R U A..R, s..Z U S..Z} *\/$/;"	v
+verif_seq	../src/Yao8.c	/^int verif_seq(char *cde)$/;"	f
+vobs	Dyniob.h	/^	YREAL  vobs; \/* valeur de l'observation *\/$/;"	m	struct:Yst_fobs

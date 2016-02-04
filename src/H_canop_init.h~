@@ -1,0 +1,69 @@
+  
+/***************************************************************************
+                 module classe H_canop_init.h  -  description
+
+CANOPY PROCESSES
+     -calcul de qsintmax a prevoir a chaque pas de temps dans S_qsintm
+     -Boucle sur les points continentaux
+     -Calcul de qsintveg au pas de temps suivant par ajout du flux interception loss calcule par enerbil en fonction
+      des calculs faits dans diffuco
+     -Calcul de ce qui tombe sur le sol avec accumulation dans precisol
+
+output
+	YS1 = qsintveg--->  Water on vegetation due to interception (modified)
+			     -The interception loss is take off the canopy with (qsintveg - vevapwet)
+			     -precip_rain is shared for each vegetation type
+inicialization (run.def)
+	 CALL setvar_p (qsintveg, val_exp, 'HYDROL_QSV', zero)
+
+throughfall_by_pft = Fraction of rainfall that cannot be intercepted and falls to the ground, defined by PFT (1; 1)
+                             -------------------
+ ***************************************************************************/
+
+  //===========================================================================
+  //                          methodes forward
+  forward (YREAL qsintveg_o, YREAL vevapwet, YREAL veget, YREAL precip_rain)
+  {
+	
+	if(Yt > 1)
+		YS1 = qsintveg_o - vevapwet + (veget*(1-throughfall_by_pft[Yj])*precip_rain) ;
+	else
+		YS1 = 0;
+
+	//printf("%d(%d,%d) qsintveg_o %e, vevapwet %e, veget %e, precip_rain %e, YS1 %e \n",Yt,Yi,Yj,qsintveg_o, vevapwet, veget, precip_rain,YS1);
+
+  }
+	
+
+  //===========================================================================
+  //                         methodes  backward
+  backward (YREAL qsintveg_o, YREAL vevapwet, YREAL veget, YREAL precip_rain)
+  {
+	if(Yt > 1)
+	{
+		YJ1I1 = 1;
+		YJ1I2 = -1;
+		YJ1I3 = (1-throughfall_by_pft[Yj])*precip_rain;
+		YJ1I4 = veget*(1-throughfall_by_pft[Yj]);
+	}
+	else
+		YJ1I1 = YJ1I2 = YJ1I3 = YJ1I4 = 0;	
+  }
+
+  //===========================================================================
+
+//************************** FIN DU MODULE H_canop_init.h ********************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+

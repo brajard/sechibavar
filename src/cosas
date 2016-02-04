@@ -1,0 +1,11 @@
+
+
+correr:
+
+./bin/sechiba -i ./examples/assim_HV_6_params.i
+
+
+
+compilar
+
+
