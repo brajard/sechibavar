@@ -22,23 +22,23 @@ outputs:
 
 			//YS1 =  ( hdry + 1/pow( dpu_cste-hdry + 1e-10, 2 ) ) * rsol_cste;
 			YS1 =  ( hdry + 1/(temp*temp)) * rsol_cste;
-	
+		}
 		else
-			YS1 = -1;
-
-
+		  YS1 = -1;
+		
+		
 		/*special case: it has just been raining a few drops. The upper soil
-		reservoir is ridiculously small, but the dry soil height is 0.
-		Don't take it into acco1t.*/
-
+		  reservoir is ridiculously small, but the dry soil height is 0.
+		  Don't take it into acco1t.*/
+		
 		if( ( hdry < min_sechiba ) && ( mean_dsg > min_sechiba ) && ( mean_dsg < 5.E-4 ) )
-	      		YS2 = 0;
+		  YS2 = 0;
 		else
-			YS2 = exp( - hdry/ hcrit_litter );
-
-
+		  YS2 = exp( - hdry/ hcrit_litter );
+		
+		
   }
-	
+
 
   //===========================================================================
   //                           backward
