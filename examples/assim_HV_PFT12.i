@@ -187,8 +187,8 @@ savestate H_soil_mean	2 ij 0 A  3  ./examples/output/experience_jumelle/HV_PFT12
 
 
 ##########################    Minimization    ##############################
-print_cost ON
-setm_impres 	0
+print_cost OFF
+setm_impres 	3
 setm_io 	6
 setm_mode 	0
 set_nbiter    100
