@@ -1,9 +1,10 @@
 #==========================================================
-#        Instruction file assim_HV_PFT1.i
-
+#        Instruction file assim_HV_PFT12.i
+# 
 # This script run a twin experiment, introducing a random error 
-# in the control parameters. Type of PFT : Agricultural C3 (PFT 12)
+# in the control parameters. Type of PFT : bare soil (PFT 1)
 #====================================#====================== 
+
 
 
 ###########################################
@@ -36,8 +37,7 @@ xparam_humrel 5  0.8  0.8 1  0.8  0.8  1  1  0.8   4    4    4   4
 ########################## 1) MODEL INITIALIZATION   ##########################
 ###############################################################################
 
-
-##################   Variables initial Conditions   ###############################
+##################   Variables initial Conditions   #############################
 setstate temp_sol	290
 setstate netrad 	0
 setstate fluxsens 	0
@@ -47,27 +47,27 @@ setstate transpir 	0
 setstate ptn 		290
 setstate qsintveg 	0 
 
-#########################  Hydrological variables  ###############################
-setstate h_c_1		0
-setstate h_c_2		0	
-setstate h_c_3 		0
-setstate h_c_4 		0
-setstate h_c_5 		0
-setstate h_c_6 		0
-setstate h_c_7 		0
-setstate h_c_8 		0
-setstate h_c_9 		0
-setstate h_c_10 	0
-setstate h_c_11 	0 
-setstate h_c_12 	1
-setstate h_c_13 	0
 
-setstate bqsb_init 	300
-setstate gqsb_init 	0.001
+#########################  Hydrological variables  ###############################
+setstate h_c_1	1
+setstate h_c_2	0	
+setstate h_c_3 	0
+setstate h_c_4 	0
+setstate h_c_5 	0
+setstate h_c_6 	0
+setstate h_c_7 	0
+setstate h_c_8 	0
+setstate h_c_9 	0
+setstate h_c_10 0
+setstate h_c_11 0 
+setstate h_c_12 0
+setstate h_c_13 0
+
+setstate bqsb_init 300
+setstate gqsb_init 0.001
 
 
 ################# Initialization of controllable parameters #####################
-
 setstate rsol_c		1
 setstate min_drain_c	1
 setstate rveg_c		1
@@ -110,24 +110,23 @@ setstate eaumin		175.6886
 setstate hummax		0.24431       
 setstate hummin		0.14463
 
-
     
 ############################### Controled parameters #########################
-
 xset_control z0_c	  	
 xset_control so_capa_c  	 
-xset_control so_cond_c  	
-xset_control rveg_c	  
+xset_control so_cond_c  	  
 xset_control emis_c      	
+xset_control rveg_c
 
 
 ###############################################################################
 ################################# 2) FORWARD   ################################
 ###############################################################################
+set_modeltime 0
+FORWARD
+set_modeltime 0
 
-
-############ Saving variables after execution of the direct model ##########
-
+############ Saving variables and parameters after execution of the direct model ##########
 savestate E_tempsol	1 i  0 A  3  ./examples/output/experience_jumelle/HV_PFT12/fluxes/E_tempsol_obs_HV.dat
 savestate E_tempsol	1 i  0 A  3  ./examples/output/experience_jumelle/HV_PFT12/fluxes/E_tempsol_obs2_HV.dat
 savestate E_fluxsens	1 i  0 A  3  ./examples/output/experience_jumelle/HV_PFT12/fluxes/E_fluxsens_obs_HV.dat
@@ -144,18 +143,21 @@ savestate so_capa_c 1 i 0 A 1 ./examples/output/experience_jumelle/HV_PFT12/para
 savestate emis_c 1 i 0 A 1 ./examples/output/experience_jumelle/HV_PFT12/param/emis_opt_HV.dat
 savestate rveg_c 1 i 0 A 1 ./examples/output/experience_jumelle/HV_PFT12/param/rveg_opt_HV.dat
 
-
 ############### Load Observations for the twin experiments #################
-
 LOADOBS E_tempsol 1 i 0 A 1 ./examples/output/experience_jumelle/HV_PFT12/fluxes/E_tempsol_obs_HV.dat D
 
+
+
+
 #-----------------------------------------------------------------------------------------------------------------------
+
 
 ###############################################################################
 ############## 3) MINIMIZATION M1QN3  (without constrains) ####################
 ###############################################################################
 
 ############## Adding random noise to control parameters ##################
+
 setstate emis_c     	0.7908 
 setstate rveg_c	  	0.5517
 setstate so_capa_c  	0.6120 
@@ -164,17 +166,26 @@ setstate z0_c	  	0.5158
 
 
 ################### Before Optimization (first guess) #####################
+
 set_modeltime 0
 FORWARD
 set_modeltime 0
 
 
 ################################# Saving First Guess #######################
-savestate z0_c 1 i 0 A 1  ./examples/output/experience_jumelle/HV_PFT12/param/z0_init_HV.dat
-savestate so_cond_c 1 i 0 A 1 ./examples/output/experience_jumelle/HV_PFT12/param/so_cond_init_HV.dat
-savestate so_capa_c 1 i 0 A 1 ./examples/output/experience_jumelle/HV_PFT12/param/so_capa_init_HV.dat
-savestate rveg_c 1 i 0 A 1  ./examples/output/experience_jumelle/HV_PFT12/param/rveg_init_HV.dat
-savestate emis_c 1 i 0 A 1 ./examples/output/experience_jumelle/HV_PFT12/param/emis_init_HV.dat
+
+savestate z0_c 		1 i 0 A 1  ./examples/output/experience_jumelle/HV_PFT12/param/z0_init_HV.dat
+savestate so_cond_c 	1 i 0 A 1 ./examples/output/experience_jumelle/HV_PFT12/param/so_cond_init_HV.dat
+savestate so_capa_c 	1 i 0 A 1 ./examples/output/experience_jumelle/HV_PFT12/param/so_capa_init_HV.dat
+savestate emis_c 	1 i 0 A 1 ./examples/output/experience_jumelle/HV_PFT12/param/emis_init_HV.dat
+savestate rveg_c 	1 i 0 A 1 ./examples/output/experience_jumelle/HV_PFT12/param/rveg_init_HV.dat
+
+savestate rsol_c 	1 i 0 A 1  ./examples/output/experience_jumelle/HV_PFT12/param/rsol_c_init_HV.dat
+savestate so_capa_c 	1 i 0 A 1  ./examples/output/experience_jumelle/HV_PFT12/param/so_capa_init_HV.dat
+savestate so_cond_c 	1 i 0 A 1  ./examples/output/experience_jumelle/HV_PFT12/param/so_cond_init_HV.dat	
+savestate mx_eau_c 	1 i 0 A 1  ./examples/output/experience_jumelle/HV_PFT12/param/mx_eau_init_HV.dat	
+savestate dpu_c		1 i 0 A 1  ./examples/output/experience_jumelle/HV_PFT12/param/dpu_init_HV.dat	
+savestate hum_c_12	1 i 0 A 1  ./examples/output/experience_jumelle/HV_PFT12/param/hum_init_HV.dat	
 
 savestate E_tempsol	1 i  0 A  3  ./examples/output/experience_jumelle/HV_PFT12/fluxes/E_tempsol_init_HV.dat
 savestate E_fluxsens	1 i  0 A  3  ./examples/output/experience_jumelle/HV_PFT12/fluxes/E_fluxsens_init_HV.dat
@@ -184,6 +195,7 @@ savestate T_coef_diff	2 i  0 A  3  ./examples/output/experience_jumelle/HV_PFT12
 savestate E_netrad	1 i  0 A  3  ./examples/output/experience_jumelle/HV_PFT12/fluxes/E_netrad_init_HV.dat
 savestate H_soil_mean	1 ij 0 A  3  ./examples/output/experience_jumelle/HV_PFT12/fluxes/H_bqsb_init_HV.dat
 savestate H_soil_mean	2 ij 0 A  3  ./examples/output/experience_jumelle/HV_PFT12/fluxes/H_gqsb_init_HV.dat
+
 
 
 ##########################    Minimization    ##############################
@@ -196,7 +208,9 @@ setm_nsim     200
 setm_dxmin    2.0e-30
 setm_epsg     2.0e-20
 setm_ddf1     1.0
+#set_qs_parts 4
 runm
+
 
 ###################### After optimization ######################
 set_modeltime 0
@@ -204,13 +218,23 @@ FORWARD
 set_modeltime 0
 
 
+###############################################################################
+######################### 4) Savings parameters ###############################
+###############################################################################
 
 ################################# Saving Parameters after assimilation #######################
 savestate z0_c 1 i 0 A 1  ./examples/output/experience_jumelle/HV_PFT12/param/z0_fin_HV.dat
 savestate so_cond_c 1 i 0 A 1 ./examples/output/experience_jumelle/HV_PFT12/param/so_cond_fin_HV.dat
 savestate so_capa_c 1 i 0 A 1 ./examples/output/experience_jumelle/HV_PFT12/param/so_capa_fin_HV.dat
-savestate rveg_c 1 i 0 A 1  ./examples/output/experience_jumelle/HV_PFT12/param/rveg_fin_HV.dat
 savestate emis_c 1 i 0 A 1 ./examples/output/experience_jumelle/HV_PFT12/param/emis_fin_HV.dat
+savestate rveg_c 1 i 0 A 1 ./examples/output/experience_jumelle/HV_PFT12/param/rveg_fin_HV.dat
+
+savestate rsol_c 	1 i 0 A 1  ./examples/output/experience_jumelle/HV_PFT12/param/rsol_c_fin_HV.dat
+savestate so_capa_c 	1 i 0 A 1  ./examples/output/experience_jumelle/HV_PFT12/param/so_capa_fin_HV.dat
+savestate so_cond_c 	1 i 0 A 1  ./examples/output/experience_jumelle/HV_PFT12/param/so_cond_fin_HV.dat	
+savestate mx_eau_c 	1 i 0 A 1  ./examples/output/experience_jumelle/HV_PFT12/param/mx_eau_fin_HV.dat	
+savestate dpu_c		1 i 0 A 1  ./examples/output/experience_jumelle/HV_PFT12/param/dpu_fin_HV.dat	
+savestate hum_c_12	1 i 0 A 1  ./examples/output/experience_jumelle/HV_PFT12/param/hum_fin_HV.dat	
 
 
 ################################# Saving Model state after assimilation #######################
@@ -223,7 +247,6 @@ savestate E_netrad	1 i  0 A  3  ./examples/output/experience_jumelle/HV_PFT12/fl
 savestate H_soil_mean	1 ij 0 A  3  ./examples/output/experience_jumelle/HV_PFT12/fluxes/H_bqsb_fin_HV.dat
 savestate H_soil_mean	2 ij 0 A  3  ./examples/output/experience_jumelle/HV_PFT12/fluxes/H_gqsb_fin_HV.dat
 
-
 ################################# Plotting all outputs #######################
 
 ####some model variables
@@ -231,6 +254,7 @@ savestate H_soil_mean	2 ij 0 A  3  ./examples/output/experience_jumelle/HV_PFT12
 
 ####control paremeter variation
 !gnuplot ./examples/output/experience_jumelle/HV_PFT12/plot_parameters_HV_PFT12.gp
+
 
 
 
