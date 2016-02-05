@@ -20,7 +20,7 @@ Ycpp= Ysechiba
 
 
 CXX= g++ 
-CXXFLAGS= -g -c -Wall -DLINUXPC -Wno-deprecated -Wno-write-strings
+CXXFLAGS= -O3 -g -c -Wall -DLINUXPC -Wno-deprecated -Wno-write-strings
 INCFLAGS= -I${INCDIR} -I${INCYAO} -I${INCNC} -I. 
 
 
