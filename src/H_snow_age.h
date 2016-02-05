@@ -105,7 +105,7 @@ output: YS1 = snow_age
 	double d_temp_snow_nobio_age1;
 	double d_temp_precip_snow;
 
-	double d_xx_tempsol;
+	double d_xx_tempsol=0;
 	
 	double d_YS2_age;
 	

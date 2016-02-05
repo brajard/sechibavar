@@ -147,8 +147,8 @@ outputs:
 	double dsnowmelt_m_snow_m;
 
 	double dsnowmelt_tmp_frac_nobio;
-	double dsnowmelt_tmp_tempsol;
-	double dsnowmelt_tmp_soilcap;	
+	double dsnowmelt_tmp_tempsol=0;
+	double dsnowmelt_tmp_soilcap=0;	
 	double dsnowmelt_tmp_snow;
 	double dsnowmelt_tmp_sn;
 

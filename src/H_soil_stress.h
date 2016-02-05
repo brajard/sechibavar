@@ -33,7 +33,7 @@ Sorties
 	double humrel, vegstress;
 	double dsg_m = dsg;
 	double temp = 0;
-	double hum_cste;
+	double hum_cste = 0;
 
 	if(Yt > 1)
 	{	
@@ -156,8 +156,8 @@ Sorties
 	double a_subgrd = 0;
 	double humrel, vegstress;
 	double dsg_m = dsg;
-	double temp;
-	double hum_cste;
+	double temp=0;
+	double hum_cste=0;
 
 	double d_hum_h1 = 0;
 	double d_hum_h2 = 0;

@@ -46,7 +46,7 @@ ouputs:
 				if ( lai > min_sechiba)
 				{
 					if(lai > 1.5)
-						coeff_dew_veg= dew_veg_coeff[5]*pow(lai,5) - dew_veg_coeff[4]*pow(lai,4) + dew_veg_coeff[3]*pow(lai,3) - dew_veg_coeff[2]*pow(lai,2) + dew_veg_coeff[1]*lai + dew_veg_coeff[6];
+						coeff_dew_veg= dew_veg_coeff[5]*pow(lai,5) - dew_veg_coeff[4]*pow(lai,4) + dew_veg_coeff[3]*pow(lai,3) - dew_veg_coeff[2]*pow(lai,2) + dew_veg_coeff[1]*lai + dew_veg_coeff[0];
 					else
 						coeff_dew_veg=1;
 				}
