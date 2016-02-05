@@ -18,11 +18,11 @@ outputs:
   {
 
 	double snowmelt ,snowmelt_t;
-	double snowmelt_m;
+	double snowmelt_m =0 ;
 	double snow_m = snow;
 	double snowmelt_tmp;
-	double icemelt;
-	double snow_nobio;
+	double icemelt = 0;
+	double snow_nobio =0 ;
 	//1.3. snow melt only if temperature positive
 
 	if(Yt == 1)
@@ -131,13 +131,13 @@ outputs:
 	double snow_m = snow;
 	double snowmelt_tmp;
 	double icemelt;
-	double snow_nobio;
+	double snow_nobio=0;
 	//1.3. snow melt only if temperature positive
 
 	//derivadas
 	double dsnowmelt_frac_nobio;
-	double dsnowmelt_tempsol;
-	double dsnowmelt_soilcap;	
+	double dsnowmelt_tempsol =0;
+	double dsnowmelt_soilcap = 0;	
 	double dsnowmelt_snow;
 
 	double dsnow_m_snow;
