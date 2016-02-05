@@ -1,0 +1,25 @@
+README File
+
+
+
+
+SECHIBA – YAO must be installer in a linux-based operational system. 
+In order to installed it, you have to deploy the compressed file in 
+your local environment and run the makefile to generate the executable.
+
+There are several folders in SECHIBA-YAO distribution
+
+	-the example folder contains everything you need to run experiments 1 
+	and 2: forcing files, inputs, instruction files and outputs
+
+	-the doc folder contains the instruction manual and some other interesting 
+	documents
+
+	-The other folders contain the  files needed to compile and run SECHIBA-YAO
+
+
+In order to deploy SECHIBA-YAO in your local environment, several variables in the 
+makefile has to be modified, if needed:
+	-LIBNC and INCNC make reference to netcdf libraries needed to read fircing files
+	-LDFLAGS is a variable containing flags to several refereences needed to compile 
+	-CXX contains the compiler, it can be changed if needed
